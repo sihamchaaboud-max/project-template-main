@@ -1,0 +1,20 @@
+id: schkg_art74
+titre: Loi fédérale sur la poursuite pour dettes et la faillite, art. 74
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/11/529_488_529/fr
+langue: fr
+theme: opposition
+date_acces: 2026-10-08
+---
+C. Opposition
+1. Délai et forme
+Art. 74
+1 Le débiteur poursuivi qui entend former opposition doit, verbalement ou par écrit, en faire la déclaration immédiate à celui qui lui remet le commandement de payer ou à l’office dans les dix jours à compter de la notification du commandement de payer.153
+
+2 Le débiteur poursuivi qui ne conteste qu’une partie de la dette doit indiquer exactement le montant contesté, faute de quoi la dette entière est réputée contestée.154
+
+3 À la demande du débiteur, il lui est gratuitement donné acte de l’opposition.
+
+153 Nouvelle teneur selon le ch. I de la LF du 16 déc. 1994, en vigueur depuis le 1er janv. 1997 (RO 1995 1227; FF 1991 III 1).
+
+154 Nouvelle teneur selon le ch. I de la LF du 16 déc. 1994, en vigueur depuis le 1er janv. 1997 (RO 1995 1227; FF 1991 III 1).

@@ -1,0 +1,32 @@
+id: kvg_art3_de
+titre: Bundesgesetz über die Krankenversicherung, Art. 3
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de
+langue: de
+theme: prime
+date_acces: 2026-10-08
+---
+Art. 3 Versicherungspflichtige Personen
+1 Jede Person mit Wohnsitz in der Schweiz muss sich innert drei Monaten nach der Wohnsitznahme oder der Geburt in der Schweiz für Krankenpflege versichern oder von ihrem gesetzlichen Vertreter beziehungsweise ihrer gesetzlichen Vertreterin versichern lassen.
+
+2 Der Bundesrat kann Ausnahmen von der Versicherungspflicht vorsehen, namentlich für Personen, die im Sinne von Artikel 2 Absatz 2 des Gaststaatgesetzes vom 22. Juni 200712 mit Vorrechten, Immunitäten und Erleichterungen begünstigt sind.13
+
+3 Er kann die Versicherungspflicht auf Personen ohne Wohnsitz in der Schweiz ausdehnen, insbesondere auf solche, die:
+
+a.14
+in der Schweiz tätig sind oder dort ihren gewöhnlichen Aufenthalt (Art. 13 Abs. 2 ATSG15) haben;
+b.
+im Ausland von einem Arbeitgeber mit einem Sitz in der Schweiz beschäftigt werden.
+4 Die Versicherungspflicht wird sistiert für Personen, die während mehr als 60 aufeinander folgenden Tagen dem Bundesgesetz vom 19. Juni 199216 über die Militärversicherung (MVG) unterstellt sind. Der Bundesrat regelt das Verfahren.17
+
+12 SR 192.12
+
+13 Fassung gemäss Anhang Ziff. II 11 des Gaststaatgesetzes vom 22. Juni 2007, in Kraft seit 1. Jan. 2008 (AS 2007 6637; BBl 2006 8017).
+
+14 Fassung gemäss Anhang Ziff. 11 des BG vom 6. Okt. 2000 über den Allgemeinen Teil des Sozialversicherungsrechts, in Kraft seit 1. Jan. 2003 (AS 2002 3371; BBl 1991 II 185, 910; 1994 V 921; 1999 4523).
+
+15 SR 830.1
+
+16 SR 833.1
+
+17 Eingefügt durch Ziff. I des BG vom 24. März 2000, in Kraft seit 1. Jan. 2001 (AS 2000 2305; BBl 1999 793).

@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "t01", "categorie": "rappel_poursuite", "langue": "fr",
+    "date_courrier": "2026-10-05",
+    "courrier": "Office des poursuites de Lausanne\nCommandement de payer, notifié le 5 octobre 2026\nCréancier : Société Alpha SA\nMontant de la dette : CHF 1'250.00, plus frais de poursuite.\nVous êtes sommé de payer dans les vingt jours. Si vous contestez tout ou partie de la dette, vous devez former opposition dans les dix jours dès la notification. À défaut, la poursuite suivra son cours.",
+    "attendu": {"type_document": "commandement_de_payer", "delai": "2026-10-15", "montant": 1250.00, "action_demandee": "faire opposition si la dette est contestée"},
+    "source_ids_attendus": ["schkg_art69", "schkg_art74"]
+  },
+  {
+    "id": "t02", "categorie": "assurance_maladie", "langue": "de",
+    "date_courrier": "2026-10-08",
+    "courrier": "Krankenkasse Muster AG\nMahnung\nSehr geehrte Frau Muster\nIhre Prämie für Oktober 2026 von CHF 412.50 ist noch offen. Mahnspesen: CHF 20.00. Total: CHF 432.50. Bitte überweisen Sie den Betrag bis zum 9. November 2026. Andernfalls leiten wir die Betreibung ein.",
+    "attendu": {"type_document": "mahnung_praemie", "delai": "2026-11-09", "montant": 432.50, "action_demandee": "payer le total"},
+    "source_ids_attendus": ["kvg_art64a_de"]
+  },
+  {
+    "id": "t03", "categorie": "sejour", "langue": "fr",
+    "date_courrier": "2026-10-07",
+    "courrier": "Service de la population\nObjet : demande de documents complémentaires\nPour traiter votre demande d'autorisation de séjour, veuillez nous transmettre une attestation de logement et une copie de votre contrat de travail jusqu'au 2 novembre 2026. Sans réponse de votre part, votre dossier sera classé.",
+    "attendu": {"type_document": "demande_documents", "delai": "2026-11-02", "montant": null, "action_demandee": "envoyer attestation de logement et contrat de travail"},
+    "source_ids_attendus": ["lei_art33"]
+  },
+  {
+    "id": "t04", "categorie": "rappel_poursuite", "langue": "de",
+    "date_courrier": "2026-10-06",
+    "courrier": "Betreibungsamt Musterstadt\nZahlungsbefehl (Betreibung Nr. 2026-48213)\nZugestellt am 6. Oktober 2026\nGläubiger: Muster Handels AG\nForderung: CHF 3'480.00 nebst Zins zu 5 % seit dem 1. Juli 2026\nBetreibungskosten: CHF 73.30\nSie werden aufgefordert, innert 20 Tagen den Gläubiger zu befriedigen. Wenn Sie die Forderung oder einen Teil davon bestreiten wollen, müssen Sie innert zehn Tagen nach Zustellung dem Betreibungsamt Rechtsvorschlag erklären. Andernfalls nimmt die Betreibung ihren Fortgang.",
+    "attendu": {"type_document": "zahlungsbefehl", "delai": "2026-10-16", "montant": 3480.00, "action_demandee": "faire opposition (Rechtsvorschlag) si la dette est contestée"},
+    "source_ids_attendus": ["schkg_art69_de", "schkg_art74_de"]
+  },
+  {
+    "id": "t05", "categorie": "rappel_poursuite", "langue": "fr",
+    "date_courrier": "2026-10-07",
+    "courrier": "Services industriels de Montclair\nDernier rappel\nFacture n° 55810 du 10 août 2026 : CHF 186.40\nFrais de rappel : CHF 15.00\nTotal dû : CHF 201.40\nNous vous prions de régler ce montant d'ici au 20 octobre 2026. Passé ce délai, nous demanderons l'ouverture d'une poursuite à votre encontre.",
+    "attendu": {"type_document": "dernier_rappel", "delai": "2026-10-20", "montant": 201.40, "action_demandee": "payer le total"},
+    "source_ids_attendus": ["schkg_art67"]
+  },
+  {
+    "id": "t06", "categorie": "rappel_poursuite", "langue": "de",
+    "date_courrier": "2026-10-08",
+    "courrier": "Inkasso Beispiel AG\nLetzte Mahnung vor Einleitung der Betreibung\nOffene Forderung: CHF 940.00\nInkassogebühren: CHF 90.00\nGesamtbetrag: CHF 1'030.00\nBitte zahlen Sie den Gesamtbetrag bis zum 23. Oktober 2026. Andernfalls stellen wir beim Betreibungsamt ein Betreibungsbegehren.",
+    "attendu": {"type_document": "mahnung_inkasso", "delai": "2026-10-23", "montant": 1030.00, "action_demandee": "payer le montant total"},
+    "source_ids_attendus": ["schkg_art67_de"]
+  },
+  {
+    "id": "t07", "categorie": "rappel_poursuite", "langue": "fr",
+    "date_courrier": "2026-10-02",
+    "courrier": "Office des poursuites de Montclair\nCommandement de payer (poursuite n° 2026/7731)\nNotifié le 2 octobre 2026\nCréancier : Garage du Centre Sàrl\nDette : CHF 2'300.00 avec intérêts à 5 % dès le 1er mai 2026\nFrais de poursuite : CHF 73.30\nVous êtes sommé de payer dans les vingt jours. Si vous contestez tout ou partie de la dette, vous devez former opposition dans les dix jours dès la notification.",
+    "attendu": {"type_document": "commandement_de_payer", "delai": "2026-10-12", "montant": 2300.00, "action_demandee": "faire opposition si la dette est contestée, sinon payer"},
+    "source_ids_attendus": ["schkg_art69", "schkg_art74"]
+  },
+  {
+    "id": "t08", "categorie": "assurance_maladie", "langue": "fr",
+    "date_courrier": "2026-10-10",
+    "courrier": "Assurance Santé Exemple SA\nSommation de payer\nMadame, Monsieur,\nMalgré notre rappel du 15 septembre 2026, les primes de juillet à septembre 2026 restent impayées : CHF 1'237.50. Frais de sommation : CHF 30.00. Total : CHF 1'267.50.\nNous vous accordons un dernier délai de 30 jours, soit jusqu'au 9 novembre 2026, pour régler ce montant. À défaut, nous engagerons une poursuite et pourrons informer le canton.",
+    "attendu": {"type_document": "sommation_prime", "delai": "2026-11-09", "montant": 1267.50, "action_demandee": "payer le total"},
+    "source_ids_attendus": ["kvg_art64a"]
+  },
+  {
+    "id": "t09", "categorie": "assurance_maladie", "langue": "de",
+    "date_courrier": "2026-10-08",
+    "courrier": "Amt für Krankenversicherung Musterkanton\nBetrifft: fehlende Krankenversicherung\nSehr geehrter Herr Beispiel\nSie haben am 15. Juli 2026 Wohnsitz in unserem Kanton genommen. Nach unseren Unterlagen sind Sie nicht krankenversichert. Jede Person mit Wohnsitz in der Schweiz muss sich innert drei Monaten versichern. Bitte schliessen Sie bis spätestens 15. Oktober 2026 eine Grundversicherung ab und teilen Sie uns dies mit. Andernfalls weisen wir Sie einem Versicherer zu.",
+    "attendu": {"type_document": "aufforderung_versicherungspflicht", "delai": "2026-10-15", "montant": null, "action_demandee": "souscrire une assurance de base et le communiquer à l'office"},
+    "source_ids_attendus": ["kvg_art3_de"]
+  },
+  {
+    "id": "t10", "categorie": "assurance_maladie", "langue": "fr",
+    "date_courrier": "2026-10-09",
+    "courrier": "Assurance Santé Exemple SA\nDécompte de prestations n° 88213\nCoûts des traitements : CHF 1'850.00\nFranchise : CHF 300.00\nQuote-part de 10 % sur CHF 1'550.00 : CHF 155.00\nVotre participation aux coûts : CHF 455.00\nCe montant est facturé séparément et doit être payé jusqu'au 5 novembre 2026.",
+    "attendu": {"type_document": "decompte_prestations", "delai": "2026-11-05", "montant": 455.00, "action_demandee": "payer la participation aux coûts"},
+    "source_ids_attendus": ["kvg_art64"]
+  },
+  {
+    "id": "t11", "categorie": "assurance_maladie", "langue": "de",
+    "date_courrier": "2026-10-05",
+    "courrier": "Sozialversicherungsamt Musterkanton\nPrämienverbilligung 2027\nSie haben voraussichtlich Anspruch auf eine Prämienverbilligung von CHF 1'440.00 pro Jahr. Damit wir Ihren Anspruch prüfen können, reichen Sie bitte das beiliegende Antragsformular samt Steuerunterlagen bis zum 30. November 2026 ein. Nach Ablauf der Frist können wir Ihren Antrag nicht mehr berücksichtigen.",
+    "attendu": {"type_document": "praemienverbilligung_antrag", "delai": "2026-11-30", "montant": 1440.00, "action_demandee": "envoyer le formulaire de demande et les documents fiscaux"},
+    "source_ids_attendus": ["kvg_art65_de"]
+  },
+  {
+    "id": "t12", "categorie": "sejour", "langue": "fr",
+    "date_courrier": "2026-10-06",
+    "courrier": "Service de la population\nObjet : renouvellement de votre autorisation de séjour\nVotre autorisation de séjour arrive à échéance le 31 décembre 2026. Pour en demander le renouvellement, veuillez nous retourner le formulaire ci-joint, une copie de votre passeport valable et une attestation de votre employeur jusqu'au 6 novembre 2026. Un émolument de CHF 140.00 est dû pour le traitement de votre demande. Une demande tardive peut entraîner des démarches supplémentaires.",
+    "attendu": {"type_document": "renouvellement_autorisation", "delai": "2026-11-06", "montant": 140.00, "action_demandee": "envoyer le formulaire, le passeport et l'attestation de l'employeur, et payer l'émolument"},
+    "source_ids_attendus": ["lei_art33"]
+  },
+  {
+    "id": "t13", "categorie": "sejour", "langue": "de",
+    "date_courrier": "2026-10-07",
+    "courrier": "Einwohnerkontrolle Musterstadt\nBetreff: fehlende Anmeldung\nSehr geehrter Herr Beispiel\nNach unseren Unterlagen sind Sie am 1. Oktober 2026 in die Schweiz eingereist, haben sich aber noch nicht bei uns angemeldet. Ausländerinnen und Ausländer müssen sich bei der zuständigen Behörde ihres Wohnorts anmelden. Bitte melden Sie sich bis zum 15. Oktober 2026 persönlich an und bringen Sie Ihren Pass und den Mietvertrag mit.",
+    "attendu": {"type_document": "aufforderung_anmeldung", "delai": "2026-10-15", "montant": null, "action_demandee": "s'annoncer en personne avec le passeport et le contrat de bail"},
+    "source_ids_attendus": ["lei_art12_de"]
+  },
+  {
+    "id": "t14", "categorie": "sejour", "langue": "fr",
+    "date_courrier": "2026-10-08",
+    "courrier": "Service de la population\nObjet : droit d'être entendu avant décision\nNous envisageons de révoquer votre autorisation de séjour, car vous ne remplissez plus l'une des conditions de son octroi. Avant toute décision, vous pouvez vous déterminer par écrit et nous transmettre vos pièces justificatives jusqu'au 22 octobre 2026. Sans réponse de votre part, nous statuerons sur la base du dossier.",
+    "attendu": {"type_document": "droit_etre_entendu_revocation", "delai": "2026-10-22", "montant": null, "action_demandee": "répondre par écrit avec les pièces justificatives"},
+    "source_ids_attendus": ["lei_art62"]
+  },
+  {
+    "id": "t15", "categorie": "sejour", "langue": "de",
+    "date_courrier": "2026-10-09",
+    "courrier": "Migrationsamt Musterkanton\nGesuch um Niederlassungsbewilligung\nWir haben Ihr Gesuch erhalten. Für die Bearbeitung benötigen wir einen Nachweis Ihrer Sprachkenntnisse. Bitte reichen Sie diesen bis zum 2. November 2026 ein. Die Gebühr von CHF 150.00 ist ebenfalls bis zu diesem Datum zu bezahlen. Fehlt der Nachweis, kann Ihr Gesuch nicht weiter geprüft werden.",
+    "attendu": {"type_document": "nachforderung_niederlassung", "delai": "2026-11-02", "montant": 150.00, "action_demandee": "envoyer le certificat de langue et payer la taxe"},
+    "source_ids_attendus": ["lei_art34_de"]
+  },
+  {
+    "id": "t16", "categorie": "autre", "langue": "fr",
+    "date_courrier": "2026-10-09",
+    "courrier": "Organe de perception de la redevance\nFacture annuelle de la redevance radio et télévision 2026\nMontant : CHF 335.00\nVeuillez payer ce montant jusqu'au 9 novembre 2026.",
+    "attendu": {"type_document": "autre", "delai": "2026-11-09", "montant": 335.00, "action_demandee": "payer la facture"},
+    "source_ids_attendus": []
+  },
+  {
+    "id": "t17", "categorie": "autre", "langue": "de",
+    "date_courrier": "2026-10-09",
+    "courrier": "Stadtpolizei Musterstadt\nOrdnungsbusse\nSie haben am 2. Oktober 2026 in der Bahnhofstrasse im Parkverbot geparkt. Busse: CHF 40.00. Bitte bezahlen Sie den Betrag mit dem beiliegenden Einzahlungsschein bis zum 9. November 2026.",
+    "attendu": {"type_document": "autre", "delai": "2026-11-09", "montant": 40.00, "action_demandee": "payer l'amende"},
+    "source_ids_attendus": []
+  },
+  {
+    "id": "t18", "categorie": "autre", "langue": "de",
+    "date_courrier": "2026-10-08",
+    "courrier": "Beispiel Telecom AG\nRechnung für Oktober 2026\nMobilfunkabonnement: CHF 59.90\nZusatzoption Roaming: CHF 30.00\nTotal: CHF 89.90\nZahlbar bis zum 28. Oktober 2026.",
+    "attendu": {"type_document": "autre", "delai": "2026-10-28", "montant": 89.90, "action_demandee": "payer la facture"},
+    "source_ids_attendus": []
+  },
+  {
+    "id": "t19", "categorie": "autre", "langue": "fr",
+    "date_courrier": "2026-10-09",
+    "courrier": "École primaire de Montclair\nCamp de ski 2027\nChers parents,\nLe camp de ski aura lieu du 18 au 22 janvier 2027. La participation des familles est de CHF 180.00. Merci de retourner le talon d'inscription signé et de verser ce montant jusqu'au 16 novembre 2026.",
+    "attendu": {"type_document": "autre", "delai": "2026-11-16", "montant": 180.00, "action_demandee": "retourner le talon signé et payer la participation"},
+    "source_ids_attendus": []
+  },
+  {
+    "id": "t20", "categorie": "rappel_poursuite", "langue": "de",
+    "date_courrier": "2026-10-08",
+    "courrier": "Stadtwerke Musterstadt\n1. Mahnung\nRechnung Nr. 774120 vom 1. September 2026: CHF 412.30\nMahngebühr: CHF 10.00\nTotal: CHF 422.30\nWir bitten Sie, den Betrag bis zum 22. Oktober 2026 zu überweisen. Bei Nichtzahlung müssen wir die Betreibung einleiten.",
+    "attendu": {"type_document": "mahnung", "delai": "2026-10-22", "montant": 422.30, "action_demandee": "payer le total"},
+    "source_ids_attendus": ["schkg_art67_de"]
+  }
+]

@@ -1,0 +1,36 @@
+id: lei_art34_de
+titre: Bundesgesetz über die Ausländerinnen und Ausländer und über die Integration, Art. 34
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/2007/758/de
+langue: de
+theme: permis
+date_acces: 2026-10-08
+---
+Art. 34 Niederlassungsbewilligung
+1 Die Niederlassungsbewilligung wird unbefristet und ohne Bedingungen erteilt.
+
+2 Ausländerinnen und Ausländern kann die Niederlassungsbewilligung erteilt werden, wenn:
+
+a.
+sie sich insgesamt mindestens zehn Jahre mit einer Kurzaufenthalts- oder Aufenthaltsbewilligung in der Schweiz aufgehalten haben und sie während den letzten fünf Jahren ununterbrochen im Besitz einer Aufenthaltsbewilligung waren; und
+b.72
+keine Widerrufsgründe nach Artikel 62 oder 63 Absatz 2 vorliegen; und
+c.73
+sie integriert sind.
+3 Die Niederlassungsbewilligung kann nach einem kürzeren Aufenthalt erteilt werden, wenn dafür wichtige Gründe bestehen.
+
+4 Ausländerinnen und Ausländern kann die Niederlassungsbewilligung bereits nach einem ununterbrochenen Aufenthalt mit Aufenthaltsbewilligung während der letzten fünf Jahre erteilt werden, wenn sie die Voraussetzungen nach Absatz 2 Buchstaben b und c erfüllen und sich gut in der am Wohnort gesprochenen Landessprache verständigen können.74
+
+5 Vorübergehende Aufenthalte werden an den ununterbrochenen Aufenthalt in den letzten fünf Jahren nach den Absätzen 2 Buchstabe a und 4 nicht angerechnet. Aufenthalte zur Aus- oder Weiterbildung (Art. 27) werden angerechnet, wenn die betroffene Person nach deren Beendigung während zweier Jahre ununterbrochen im Besitz einer Aufenthaltsbewilligung für einen dauerhaften Aufenthalt war.75
+
+6 Wurde die Niederlassungsbewilligung nach Artikel 63 Absatz 2 widerrufen und durch eine Aufenthaltsbewilligung ersetzt, kann die Niederlassungsbewilligung bei einer erfolgreichen Integration frühestens nach fünf Jahren erneut erteilt werden.76
+
+72 Fassung gemäss Ziff. I des BG vom 16. Dez. 2016 (Integration), in Kraft seit 1. Jan. 2019 (AS 2017 6521, 2018 3171; BBl 2013 2397, 2016 2821).
+
+73 Eingefügt durch Ziff. I des BG vom 16. Dez. 2016 (Integration), in Kraft seit 1. Jan. 2019 (AS 2017 6521, 2018 3171; BBl 2013 2397, 2016 2821).
+
+74 Fassung gemäss Ziff. I des BG vom 16. Dez. 2016 (Integration), in Kraft seit 1. Jan. 2019 (AS 2017 6521, 2018 3171; BBl 2013 2397, 2016 2821).
+
+75 Fassung gemäss Ziff. I des BG vom 18. Juni 2010 (Erleichterte Zulassung von Ausländerinnen und Ausländern mit Schweizer Hochschulabschluss), in Kraft seit 1. Jan. 2011 (AS 2010 5957; BBl 2010 427 445).
+
+76 Eingefügt durch Ziff. I des BG vom 16. Dez. 2016 (Integration), in Kraft seit 1. Jan. 2019 (AS 2017 6521, 2018 3171; BBl 2013 2397, 2016 2821).

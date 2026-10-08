@@ -1,0 +1,32 @@
+id: kvg_art3
+titre: Loi fédérale sur l'assurance-maladie, art. 3
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/fr
+langue: fr
+theme: prime
+date_acces: 2026-10-08
+---
+Art. 3 Personnes tenues de s’assurer
+1 Toute personne domiciliée en Suisse doit s’assurer pour les soins en cas de maladie, ou être assurée par son représentant légal, dans les trois mois qui suivent sa prise de domicile ou sa naissance en Suisse.
+
+2 Le Conseil fédéral peut excepter de l’assurance obligatoire certaines catégories de personnes, notamment les personnes bénéficiaires de privilèges, d’immunités et de facilités visées à l’art. 2, al. 2, de la loi du 22 juin 2007 sur l’état hôte12.13
+
+3 Il peut étendre l’obligation de s’assurer à des personnes qui n’ont pas de domicile en Suisse, en particulier celles qui:
+
+a.14
+exercent une activité en Suisse ou y séjournent habituellement (art. 13, al. 2, LPGA15);
+b.
+sont occupées à l’étranger par une entreprise ayant un siège en Suisse.
+4 L’obligation de s’assurer est suspendue pour les personnes soumises à la loi fédérale du 19 juin 1992 sur l’assurance militaire (LAM)16 pour plus de 60 jours consécutifs. Le Conseil fédéral règle la procédure.17
+
+12 RS 192.12
+
+13 Nouvelle teneur selon l’annexe ch. II 11 de la LF du 22 juin 2007 sur l’État hôte, en vigueur depuis le 1er janv. 2008 (RO 2007 6637; FF 2006 7603).
+
+14 Nouvelle teneur selon l’annexe ch. 11 de la LF du 6 oct. 2000 sur la LPGA, en vigueur depuis le 1er janv. 2003 (RO 2002 3371; FF 1991 II 181 888, 1994 V 897, 1999 4168).
+
+15 RS 830.1
+
+16 RS 833.1
+
+17 Introduit par le ch. I de la LF du 24 mars 2000, en vigueur depuis le 1er janv. 2001 (RO 2000 2305; FF 1999 727).

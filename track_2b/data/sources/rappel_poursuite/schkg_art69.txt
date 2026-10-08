@@ -1,0 +1,24 @@
+id: schkg_art69
+titre: Loi fédérale sur la poursuite pour dettes et la faillite, art. 69
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/11/529_488_529/fr
+langue: fr
+theme: poursuite
+date_acces: 2026-10-08
+---
+A. Commandement de payer
+1. Contenu
+Art. 69
+1 Dès réception de la réquisition de poursuite, l’office rédige le commandement de payer.148
+
+2 Cet acte contient:
+
+1.
+les indications prescrites pour la réquisition de poursuite;
+2.
+la sommation de payer dans les vingt jours le montant de la dette et les frais, ou, lorsque la poursuite a des sûretés pour objet, de les fournir dans ce délai;
+3.
+l’avis que le débiteur doit former opposition dans les dix jours de la notification, s’il entend contester tout ou partie de la dette ou le droit du créancier d’exercer des poursuites;
+4.
+l’avertissement que faute par le débiteur d’obtempérer au commandement de payer ou de former opposition, la poursuite suivra son cours.
+148 Nouvelle teneur selon le ch. I de la LF du 16 déc. 1994, en vigueur depuis le 1er janv. 1997 (RO 1995 1227; FF 1991 III 1).

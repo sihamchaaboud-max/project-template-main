@@ -1,0 +1,51 @@
+id: kvg_art64
+titre: Loi fédérale sur l'assurance-maladie, art. 64
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/fr
+langue: fr
+theme: franchise
+date_acces: 2026-10-08
+---
+Art. 64
+1 Les assurés participent aux coûts des prestations dont ils bénéficient.
+
+1bis La participation aux coûts pour l’enfant est exclusivement couverte, jusqu’à la fin du mois où il devient majeur, par les personnes débitrices des primes. L’enfant ne peut être tenu responsable de cette participation aux coûts même après avoir atteint l’âge de la majorité; toute poursuite introduite contre lui pour ce motif est nulle.248
+
+2 Leur participation comprend:
+
+a.
+un montant fixe par année (franchise); et
+b.
+10 % des coûts qui dépassent la franchise (quote-part).
+3 Le Conseil fédéral fixe le montant de la franchise et le montant maximal annuel de la quote-part.
+
+4 Pour les enfants, aucune franchise n’est exigée et le montant maximum de la quote-part est réduit de moitié. Plusieurs enfants d’une même famille, assurés par le même assureur, payent ensemble au maximum le montant de la franchise et de la quote-part dus par un adulte.
+
+5 En cas d’hospitalisation, les assurés versent, en outre, une contribution aux frais de séjour, échelonnée en fonction des charges de famille. Le Conseil fédéral fixe le montant de cette contribution.
+
+6 Le Conseil fédéral peut:
+
+a.
+prévoir une participation aux coûts plus élevée pour certaines prestations;
+b.
+réduire ou supprimer la participation aux coûts des traitements de longue durée et du traitement de maladies graves;
+c.
+supprimer la participation aux coûts pour une assurance impliquant un choix limité d’après l’art. 41, al. 4, lorsque cette participation se révèle inappropriée;
+d.249
+supprimer la franchise pour certaines mesures de prévention exécutées dans le cadre de programmes organisés au niveau national ou cantonal
+7 L’assureur ne peut prélever aucune participation aux coûts des prestations suivantes:
+
+a.
+prestations visées à l’art. 29, al. 2;
+b.
+prestations visées aux art. 25 et 25a qui sont fournies à partir de la 13e semaine de grossesse, pendant l’accouchement, et jusqu’à huit semaines après l’accouchement.250
+8 La participation aux coûts ne peut être assurée ni par une caisse-maladie, ni par une institution d’assurance privée. Il est également interdit aux associations, aux fondations ou à d’autres institutions de prévoir la prise en charge de ces coûts. Les dispositions de droit public de la Confédération et des cantons sont réservées.251
+
+248 Introduit par le ch. I de la LF du 18 mars 2022 (Exécution de l’obligation de payer les primes), en vigueur depuis le 1er janv. 2024 (RO 2023 678; FF 2021 745, 1058). Voir aussi les disp. trans. de cette mod. à la fin du texte.
+
+249 Introduite par le ch. I de la LF du 24 mars 2000, en vigueur depuis le 1er janv. 2001 (RO 2000 2305; FF 1999 727).
+
+250 Nouvelle teneur selon le ch. I de la LF du 21 juin 2013, en vigueur depuis le 1er mars 2014 (RO 2014 387; FF 2013 2191 2201)
+
+251 Introduit par le ch. I de la LF du 24 mars 2000, en vigueur depuis le 1er janv. 2001 (RO 2000 2305; FF 1999 727). Voir aussi l’al. 1 des disp. fin. de cette mod. à la fin du texte.
+

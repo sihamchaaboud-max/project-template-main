@@ -1,0 +1,14 @@
+id: lei_art12_de
+titre: Bundesgesetz über die Ausländerinnen und Ausländer und über die Integration, Art. 12
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/2007/758/de
+langue: de
+theme: delai
+date_acces: 2026-10-08
+---
+Art. 12 Anmeldepflicht
+1 Ausländerinnen und Ausländer, die eine Kurzaufenthalts-, Aufenthalts- oder Niederlassungsbewilligung benötigen, müssen sich vor Ablauf des bewilligungsfreien Aufenthalts oder vor der Aufnahme einer Erwerbstätigkeit bei der am Wohnort in der Schweiz zuständigen Behörde anmelden.
+
+2 Ausländerinnen und Ausländer müssen sich bei der am neuen Wohnort zuständigen Behörde anmelden, wenn sie in eine andere Gemeinde oder in einen anderen Kanton ziehen.
+
+3 Der Bundesrat bestimmt die Anmeldefristen.

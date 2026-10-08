@@ -1,0 +1,50 @@
+id: kvg_art64_de
+titre: Bundesgesetz über die Krankenversicherung, Art. 64
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de
+langue: de
+theme: franchise
+date_acces: 2026-10-08
+---
+Art. 64
+1 Die Versicherten beteiligen sich an den Kosten der für sie erbrachten Leistungen.
+
+1bis Die Kostenbeteiligung für das Kind ist bis zum Ende des Monats, in dem dieses volljährig wird, ausschliesslich von den Personen geschuldet, die die Prämien schulden. Das Kind kann für diese Kostenbeteiligung auch nach Eintritt der Volljährigkeit nicht belangt werden; eine dazu eingeleitete Betreibung ist nichtig.246
+
+2 Diese Kostenbeteiligung besteht aus:
+
+a.
+einem festen Jahresbetrag (Franchise); und
+b.
+10 Prozent der die Franchise übersteigenden Kosten (Selbstbehalt).
+3 Der Bundesrat bestimmt die Franchise und setzt für den Selbstbehalt einen jährlichen Höchstbetrag fest.
+
+4 Für Kinder wird keine Franchise erhoben, und es gilt die Hälfte des Höchstbetrages des Selbstbehaltes. Sind mehrere Kinder einer Familie beim gleichen Versicherer versichert, so sind für sie zusammen höchstens die Franchise und der Höchstbetrag des Selbstbehaltes für eine erwachsene Person zu entrichten.
+
+5 Die Versicherten leisten zudem einen nach der finanziellen Belastung der Familie abgestuften Beitrag an die Kosten des Aufenthalts im Spital. Der Bundesrat setzt den Beitrag fest.
+
+6 Der Bundesrat kann:
+
+a.
+für bestimmte Leistungen eine höhere Kostenbeteiligung vorsehen;
+b.
+für Dauerbehandlungen sowie für Behandlungen schwerer Krankheiten die Kostenbeteiligung herabsetzen oder aufheben;
+c.
+die Kostenbeteiligung bei einer Versicherung mit eingeschränkter Wahl des Leistungserbringers nach Artikel 41 Absatz 4 aufheben, wenn sie sich als nicht zweckmässig erweist;
+d.247
+einzelne Leistungen der medizinischen Prävention von der Franchise ausnehmen. Dabei handelt es sich um Leistungen, die im Rahmen von national oder kantonal organisierten Präventionsprogrammen durchgeführt werden.
+7 Für folgende Leistungen darf der Versicherer keine Kostenbeteiligung erheben:
+
+a.
+Leistungen nach Artikel 29 Absatz 2;
+b.
+Leistungen nach den Artikeln 25 und 25a, die ab der 13. Schwangerschaftswoche, während der Niederkunft und bis acht Wochen nach der Niederkunft erbracht werden.248
+8 Kostenbeteiligungen dürfen weder bei einer Krankenkasse noch bei einer privaten Versicherungseinrichtung versichert werden. Ebenso ist es Vereinen, Stiftungen oder anderen Institutionen verboten, die Übernahme dieser Kosten vorzusehen. Von diesem Verbot ausgenommen ist die Übernahme von Kostenbeteiligungen auf Grund öffentlich-rechtlicher Vorschriften des Bundes oder der Kantone.249
+
+246 Eingefügt durch Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Jan. 2024 (AS 2023 678; BBl 2021 745, 1058). Siehe auch die UeB dieser Änd. am Schluss des Textes.
+
+247 Eingefügt durch Ziff. I des BG vom 24. März 2000, in Kraft seit 1. Jan. 2001 (AS 2000 2305; BBl 1999 793).
+
+248 Fassung gemäss Ziff. I des BG vom 21. Juni 2013, in Kraft seit 1. März 2014 (AS 2014 387; BBl 2013 2459, 2469).
+
+249 Eingefügt durch Ziff. I des BG vom 24. März 2000, in Kraft seit 1. Jan. 2001 (AS 2000 2305; BBl 1999 793). Siehe auch die SchlB dieser Änd. am Ende dieses Textes.
