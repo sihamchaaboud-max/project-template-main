@@ -1,4 +1,4 @@
-# Technical report — Jisr (جسر)
+# Technical report — Jisr 
 
 A deeper write-up than the README: what we built, how it works, and what the numbers say.
 Passages marked **TO FILL** wait for a result or a decision that does not exist yet.
