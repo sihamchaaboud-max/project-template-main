@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "t01",
+    "categorie": "rappel_poursuite",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "Commandement de payer",
+      "delai": "20 jours",
+      "montant": "CHF 1'250.00",
+      "action_demandee": "Payer CHF 1'250.00 dans les vingt jours"
+    },
+    "extraction_ok": true,
+    "top_score": 0.7569,
+    "sans_source": 0,
+    "passages": [
+      "schkg_art69",
+      "schkg_art74",
+      "kvg_art64a"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "- شنو كاتقول الرسالة؟\nتم تسليم أمر رسمي بالأداء (Commandement de payer) من طرف مكتب تحصيل الديون ديال لوزان، وتطلب منك تخلص مبلغ 1'250.00 فرنك سويسري، بالإضافة إلى مصاريف التحصيل. خاصك تخلص المبلغ في ظرف عشرين يوم، وإلا إذا كنتي ما كنتيش موافق على الدين، عندك الحق تعترض عليه في ظرف عشرة أيام من تاريخ تسليم الرسالة.\n- شنو خاصك تدير؟\nخاصك تخلص مبلغ 1'250.00 فرنك سويسري في ظرف عشرين يوم، أو إذا كنتي ما كنتيش موافق على الدين، قدم اعتراض رسمي (opposition) لمكتب تحصيل الديون في ظرف عشرة أيام من تاريخ تسليم الأمر بالأداء.\n- آخر أجل:\nعشرين يوم من تاريخ تسليم الأمر بالأداء (5 أكتوبر 2026).\n- المصدر: المادة 69 و74 من قانون تحصيل الديون والإفلاس السويسري (SchKG).\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل بمكتب تحصيل الديون (Office des poursuites) ديال لوزان.",
+        "erreur": null,
+        "latence_s": 4.97,
+        "check_ok": 0,
+        "manquants": [
+          "delai : 20"
+        ],
+        "montant_ok": 1,
+        "date_ok": 0,
+        "non_soutenus": [],
+        "arabe": 0.91,
+        "source_citee": 1,
+        "longueur": 756
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nتم تسليم أمر أداء (Commandement de payer) من طرف مكتب تحصيل الديون ديال لوزان، وتطلب منك تدفع مبلغ 1'250.00 فرنك سويسري، بالإضافة إلى مصاريف التحصيل، في ظرف عشرين يوم. وإذا كنتي ما كنتيش موافق على الدين أو جزء منه، عندك الحق تعترض عليه في ظرف عشرة أيام من تاريخ تسليم الرسالة.\n- شنو خاصك تدير؟\nإذا كنتي موافق على الدين، خاصك تخلص المبلغ كامل (1'250.00 فرنك سويسري) في ظرف عشرين يوم. إذا كنتي ما كنتيش موافق على الدين أو جزء منه، خاصك تقدم اعتراض رسمي (opposition) لمكتب تحصيل الديون في ظرف عشرة أيام من تاريخ تسليم الرسالة.\n- آخر أجل:\nعشرين يوم من تاريخ تسليم أمر الأداء (5 أكتوبر 2026).\n- المصدر: المادة 69 و المادة 74 من قانون تحصيل الديون والإفلاس السويسري (SchKG).\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل بمكتب تحصيل الديون (Office des poursuites) ديال لوزان.",
+        "erreur": null,
+        "latence_s": 4.97,
+        "check_ok": 0,
+        "manquants": [
+          "delai : 20"
+        ],
+        "montant_ok": 1,
+        "date_ok": 0,
+        "non_soutenus": [],
+        "arabe": 0.91,
+        "source_citee": 1,
+        "longueur": 786
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : C’est un commandement de payer. Tu dois payer CHF 1'250.00 dans les 20 jours. Si tu n’es pas d’accord avec la somme, tu peux faire opposition dans les 10 jours.\n- Ce que tu dois faire : Tu dois décider si tu paies la somme ou si tu contestes la dette.\n- Avant quand : Tu dois payer ou contester avant le 25 octobre 2026 (20 jours après le 5 octobre 2026).\n- Source : Courrier reçu le 5 octobre 2026 de l’Office des poursuites de Lausanne.\n- Dernière phrase : En cas de doute, contacte directement l’Office des poursuites de Lausanne.",
+        "erreur": null,
+        "latence_s": 3.52,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 0,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 560
+      }
+    }
+  },
+  {
+    "id": "t02",
+    "categorie": "assurance_maladie",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Mahnung",
+      "delai": "9. November 2026",
+      "montant": "CHF 432.50",
+      "action_demandee": "Überweisen Sie den Betrag von CHF 432.50 bis zum 9. November 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.5893,
+    "sans_source": 0,
+    "passages": [
+      "kvg_art64a_de",
+      "kvg_art65",
+      "kvg_art64"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nشركة التأمين الصحي ما توصلاتش بواجب التأمين الصحي ديالك ديال شهر أكتوبر 2026، اللي هو 412.50 فرنك سويسري. أضافو ليه مصاريف التذكير بالخلاص (20.00 فرنك سويسري)، بحيث المبلغ الكلي اللي خاصك تخلصو هو 432.50 فرنك سويسري. خاصك ترسل الفلوس حتى نهار 9 نونبر 2026، وإلا غادي يبداو إجراءات قانونية لتحصيل الدين.\nشنو خاصك تدير؟\nخاصك تخلص المبلغ الكلي 432.50 فرنك سويسري، إما بالحوالة أو بأي وسيلة أداء معتمدة، حتى آخر أجل هو 9 نونبر 2026.\nآخر أجل:\n9 نونبر 2026.\nالمصدر: المادة 64a من قانون التأمين الصحي السويسري (KVG).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بشركة التأمين الصحي (Krankenkasse Muster AG) اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.94,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.95,
+        "source_citee": 1,
+        "longueur": 638
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nالشركة ديال التأمين (Krankenkasse Muster AG) كاتقول أن واجب التأمين ديالك ديال شهر أكتوبر 2026 بقيمة 412.50 فرنك سويسري مازال مفتوح، مع غرامة تذكير بقيمة 20 فرنك سويسري، لي مجموعها 432.50 فرنك سويسري. خاصك تخلص المبلغ حتى تاريخ 9 نونبر 2026، وإلا غادي يبداو إجراءات تحصيل الديون ضدك.\n- شنو خاصك تدير؟\nخاصك تخلص مبلغ 432.50 فرنك سويسري للشركة (Krankenkasse Muster AG) قبل أو في تاريخ 9 نونبر 2026.\n- آخر أجل:\n9 نونبر 2026.\n- المصدر: الفقرة المتعلقة بالإنذار (Mahnung) في النظام السويسري للتأمين الصحي (KVG)، والمذكورة في الرسالة.\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بالشركة ديال التأمين (Krankenkasse Muster AG) اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.93,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.86,
+        "source_citee": 1,
+        "longueur": 669
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Tu as une facture de prime d'assurance maladie impayée pour octobre 2026. Le montant total à payer est de CHF 432.50 (prime CHF 412.50 + frais de rappel CHF 20.00). Tu dois payer ce montant avant le 9 novembre 2026. Si tu ne paies pas, l'assurance entamera une procédure de poursuite.\n- Ce que tu dois faire : Tu dois transférer la somme de CHF 432.50 avant le 9 novembre 2026.\n- Avant quand : Avant le 9 novembre 2026.\n- Source : Courrier de la Krankenkasse Muster AG (Mahnung).\n- Dernière phrase : En cas de doute, contacte directement la Krankenkasse Muster AG.",
+        "erreur": null,
+        "latence_s": 3.77,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 591
+      }
+    }
+  },
+  {
+    "id": "t03",
+    "categorie": "sejour",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "demande de documents complémentaires",
+      "delai": "2 novembre 2026",
+      "montant": null,
+      "action_demandee": "transmettre une attestation de logement et une copie de votre contrat de travail"
+    },
+    "extraction_ok": true,
+    "top_score": 0.6698,
+    "sans_source": 0,
+    "passages": [
+      "lei_art33",
+      "lei_art34",
+      "lei_art12_de"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nالخدمة ديال السكان تطلب منك توفّر وثيقة إثبات للسكن ونسخة من عقد العمل ديالك، باش تتمكن من معالجة طلب رخصة الإقامة ديالك.\nشنو خاصك تدير؟\nخاصك ترسل شهادة السكن ونسخة من عقد العمل ديالك قبل 2 نونبر 2026.\nآخر أجل:\n2 نونبر 2026.\nالمصدر: الرسالة الرسمية الصادرة عن Service de la population.\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بالService de la population اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.01,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.86,
+        "source_citee": 0,
+        "longueur": 397
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nطلب منك الخدمة ديال السكان ديالك تزويدهم بوثيقة سكن ونسخة من عقد العمل ديالك، وإلا ما بعثتيش شي شيء قبل 2 نونبر 2026، غادي يلقوا الملف ديالك.\n- شنو خاصك تدير؟\nخاصك ترسل للخدمة ديال السكان وثيقة السكن وعقد العمل ديالك قبل 2 نونبر 2026.\n- آخر أجل:\n2 نونبر 2026.\n- المصدر: الرسالة الرسمية الصادرة عن Service de la population.\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بالService de la population اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.33,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.87,
+        "source_citee": 0,
+        "longueur": 443
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Le Service de la population demande de lui envoyer une attestation de logement et une copie de votre contrat de travail avant le 2 novembre 2026. Si vous ne répondez pas, votre dossier sera fermé.\n- Ce que tu dois faire : Tu dois envoyer une attestation de logement et une copie de ton contrat de travail au Service de la population avant le 2 novembre 2026.\n- Avant quand : Avant le 2 novembre 2026.\n- Source : Courrier du Service de la population (voir ci-dessus).\n- Dernière phrase : En cas de doute, contacte directement le Service de la population qui a envoyé le courrier.",
+        "erreur": null,
+        "latence_s": 3.22,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 605
+      }
+    }
+  },
+  {
+    "id": "t04",
+    "categorie": "rappel_poursuite",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Zahlungsbefehl",
+      "delai": "20 Tagen",
+      "montant": "CHF 3'480.00 nebst Zins zu 5 % seit dem 1. Juli 2026",
+      "action_demandee": "innert 20 Tagen den Gläubiger zu befriedigen"
+    },
+    "extraction_ok": true,
+    "top_score": 0.6934,
+    "sans_source": 0,
+    "passages": [
+      "schkg_art69_de",
+      "schkg_art74_de",
+      "schkg_art67_de"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "- شنو كاتقول الرسالة؟\nتبداو ضدك إجراءات قانونية لتحصيل دين بقيمة 3'480.00 فرنك سويسري، زائد فوائد بنسبة 5% من 1 يوليو 2026، بالإضافة إلى مصاريف التحصيل بقيمة 73.30 فرنك سويسري. خاصك تخلص المبلغ أو تعترض على الدين.\n- شنو خاصك تدير؟\nإلا كنتي موافق على الدين، خاصك تخلص المبلغ كامل (3'480.00 فرنك سويسري + 73.30 فرنك سويسري) قبل آخر أجل. وإلا كنتي ما كنتيش موافق على الدين أو على جزء منه، خاصك تقدم اعتراض رسمي (Rechtsvorschlag) للـ Betreibungsamt خلال 10 أيام من تاريخ توصلتي بالأمر.\n- آخر أجل:\n20 أيام من تاريخ توصلتي بالأمر بالأداء.\nالمصدر: المادة 69 و المادة 74 من قانون تحصيل الديون والإفلاس السويسري (SchKG).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بمكتب تحصيل الديون (Betreibungsamt Musterstadt).",
+        "erreur": null,
+        "latence_s": 5.07,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 0,
+        "non_soutenus": [],
+        "arabe": 0.89,
+        "source_citee": 1,
+        "longueur": 706
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nتبداو إجراءات قانونية لتحصيل دين بقيمة 3'480.00 فرنك سويسري، بالإضافة إلى فائدة 5٪ من 1 يوليو 2026، و73.30 فرنك سويسري كتكلفة التحصيل. خاصك تخلص المبلغ أو تعترض على الدين خلال 20 يومًا.\n- شنو خاصك تدير؟\nإلا كنتي موافق على الدين، خاصك تخلص المبلغ كاملًا (3'480.00 فرنك سويسري + 73.30 فرنك سويسري) خلال 20 يومًا من تاريخ تسليم هذا الأمر بالأداء. وإلا كنتي ما موافقش على الدين أو على جزء منه، خاصك تعترض رسميًا (Rechtsvorschlag) على هذا الأمر خلال 10 أيام من تاريخ تسليمه.\n- آخر أجل:\n20 يومًا من تاريخ تسليم الأمر بالأداء (6 أكتوبر 2026).\n- المصدر: المادة 69 و المادة 74 من قانون تحصيل الديون والإفلاس السويسري (SchKG).\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل بمكتب تحصيل الديون (Betreibungsamt Musterstadt).",
+        "erreur": null,
+        "latence_s": 5.11,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 0,
+        "non_soutenus": [],
+        "arabe": 0.91,
+        "source_citee": 1,
+        "longueur": 728
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : C'est un ordre de paiement (Zahlungsbefehl) pour une somme de CHF 3'480.00 plus des intérêts à 5 % depuis le 1er juillet 2026, plus des frais de CHF 73.30. Tu dois payer ou contester cette somme dans des délais précis.\n- Ce que tu dois faire : Tu as 20 jours pour payer la somme demandée ou contester une partie de la dette. Si tu veux contester, tu dois faire un \"Rechtsvorschlag\" (opposition) dans les 10 jours suivant la réception du courrier.\n- Avant quand : Tu dois agir dans les 20 jours pour payer ou contester, et si tu contestes, tu as 10 jours à partir de la date de réception du courrier.\n- Source : Courrier reçu le 6 octobre 2026, Betreibungsamt Musterstadt, Betreibung Nr. 2026-48213\n- Dernière phrase : En cas de doute, contacte directement le Betreibungsamt Musterstadt.",
+        "erreur": null,
+        "latence_s": 4.76,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 0,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 813
+      }
+    }
+  },
+  {
+    "id": "t05",
+    "categorie": "rappel_poursuite",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "rappel de facture",
+      "delai": "20 octobre 2026",
+      "montant": "201.40",
+      "action_demandee": "régler le montant dû d'ici au 20 octobre 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.5391,
+    "sans_source": 1,
+    "passages": [],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nخدمات صناعية ديال Montclair كاتطلب منك تخلص فاتورة بقيمة 186.40 فرنك سويسري، مع مصاريف تذكير بقيمة 15.00 فرنك سويسري، مجموعها 201.40 فرنك سويسري. خاصك تخلص المبلغ قبل أو فآخر أجل 20 أكتوبر 2026.\nشنو خاصك تدير؟\nخاصك تخلص المبلغ الكلي 201.40 فرنك سويسري قبل أو فآخر أجل 20 أكتوبر 2026.\nآخر أجل:\n20 أكتوبر 2026.\nالمصدر: النص الرئيسي من الرسالة (Services industriels de Montclair).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بخدمات صناعية ديال Montclair اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.83,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.86,
+        "source_citee": null,
+        "longueur": 490
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\n   وصل آخر تذكير بخصوص فاتورة الكهرباء. خاصك تخلص المبلغ الكلي 201.40 فرنك سويسري قبل تاريخ 20 أكتوبر 2026. وإلا ما خلصتيش، غادي يفتحوا إجراءات قانونية ضدك.\n- شنو خاصك تدير؟\n   خاصك تخلص مبلغ 201.40 فرنك سويسري قبل أو في تاريخ 20 أكتوبر 2026.\n- آخر أجل:\n   20 أكتوبر 2026.\n- المصدر:\n   الرسالة الصادرة عن Services industriels de Montclair.\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بServices industriels de Montclair.",
+        "erreur": null,
+        "latence_s": 3.27,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.81,
+        "source_citee": null,
+        "longueur": 445
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : C’est un rappel de facture impayée. Il faut payer CHF 201.40 avant le 20 octobre 2026, sinon ils engagent une poursuite.\n- Ce que tu dois faire : Tu dois payer la somme de CHF 201.40 avant le 20 octobre 2026.\n- Avant quand : Avant le 20 octobre 2026.\n- Source : Services industriels de Montclair – Dernier rappel\n- Dernière phrase : En cas de doute, contacte directement les Services industriels de Montclair.",
+        "erreur": null,
+        "latence_s": 2.85,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": null,
+        "longueur": 436
+      }
+    }
+  },
+  {
+    "id": "t06",
+    "categorie": "rappel_poursuite",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Letzte Mahnung vor Einleitung der Betreibung",
+      "delai": "23. Oktober 2026",
+      "montant": "CHF 1'030.00",
+      "action_demandee": "Payer le montant total de CHF 1'030.00 jusqu'au 23 octobre 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.5515,
+    "sans_source": 0,
+    "passages": [
+      "schkg_art69_de",
+      "schkg_art74_de",
+      "kvg_art64a_de"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nشركة تحصيل الديون (Inkasso) كاتطلب منك تخلص مبلغ إجمالي قدره 1'030.00 فرنك سويسري، قبل أو فآخر أجل 23 أكتوبر 2026. وإلا ما خلصتيش، غادي يرسلو طلب باش تبدا إجراءات قانونية لتحصيل الدين (Betreibung).\nشنو خاصك تدير؟\nخاصك تخلص المبلغ الكلي 1'030.00 فرنك سويسري قبل أو فآخر أجل 23 أكتوبر 2026. وإلا ما عندكش المبلغ كامل، حاول التواصل مع الشركة باش تعرف إذا كان بإمكانك الخلاص بالتقسيط أو إذا كان عندك شي مشكل.\nآخر أجل:\n23 أكتوبر 2026.\nالمصدر: الفقرة الأولى من المادة 64a من قانون التأمين الصحي السويسري (KVG).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بشركة Inkasso Beispiel AG اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.41,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.92,
+        "source_citee": 1,
+        "longueur": 614
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nالرسالة هي إنذار أخير قبل الشروع في إجراءات تحصيل الدين. عندك دين مفتوح بقيمة 940.00 فرنك سويسري، بالإضافة إلى رسوم تحصيل بقيمة 90.00 فرنك سويسري، أي ما مجموعه 1'030.00 فرنك سويسري. يطلب منك الشركة تسديد المبلغ بالكامل قبل 23 أكتوبر 2026، وإلا سيرسلون طلب التحصيل إلى مكتب تحصيل الديون.\n- شنو خاصك تدير؟\nخاصك تخلص المبلغ الكلي وهو 1'030.00 فرنك سويسري قبل أو في تاريخ 23 أكتوبر 2026.\n- آخر أجل:\n23 أكتوبر 2026.\n- المصدر: محتوى الرسالة (Inkasso Beispiel AG).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بشركة Inkasso Beispiel AG اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.15,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.92,
+        "source_citee": 0,
+        "longueur": 569
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : C'est une dernière mise en demeure avant de lancer une procédure de poursuite. Tu dois payer la somme totale de CHF 1'030.00 avant le 23 octobre 2026. Sinon, ils vont déposer une demande de poursuite auprès du bureau des poursuites.\n- Ce que tu dois faire : Tu dois payer le montant total de CHF 1'030.00 avant le 23 octobre 2026.\n- Avant quand : Avant le 23 octobre 2026.\n- Source : Courrier de \"Inkasso Beispiel AG\" (Letzte Mahnung vor Einleitung der Betreibung)\n- Dernière phrase : En cas de doute, contacte directement \"Inkasso Beispiel AG\".",
+        "erreur": null,
+        "latence_s": 3.45,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 572
+      }
+    }
+  },
+  {
+    "id": "t07",
+    "categorie": "rappel_poursuite",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "Commandement de payer",
+      "delai": "20 jours",
+      "montant": "CHF 2'300.00",
+      "action_demandee": "Payer CHF 2'300.00 avec intérêts à 5 % dès le 1er mai 2026 et CHF 73.30 de frais de poursuite dans les vingt jours"
+    },
+    "extraction_ok": true,
+    "top_score": 0.7357,
+    "sans_source": 0,
+    "passages": [
+      "schkg_art69",
+      "schkg_art74",
+      "schkg_art67"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nمكتب تحصيل الديون ديال Montclair كيدعوك تخلص مبلغ 2'300.00 فرنك سويسري مع فوائد 5 % من 1 ماي 2026، زائد 73.30 فرنك مصاريف التحصيل، في ظرف عشرين يوم. إلا كنتي ما موافقش على الدين، عندك الحق تعترض عليه في ظرف عشرة أيام من تاريخ تلقي الأمر بالأداء.\nشنو خاصك تدير؟\nخاصك تخلص المبلغ الكلي (2'300.00 فرنك سويسري + 73.30 فرنك سويسري) في ظرف عشرين يوم، أو إلا كنتي ما موافقش على الدين، خاصك تقدم اعتراض رسمي (opposition) لمكتب تحصيل الديون في ظرف عشرة أيام من تاريخ تلقي هذا الأمر.\nآخر أجل:\n20 jours من تاريخ تلقي هذا الأمر بالأداء.\nالمصدر: المادة 69 و 74 من قانون تحصيل الديون والإفلاس السويسري (SchKG).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بمكتب تحصيل الديون (Office des poursuites) ديالك.",
+        "erreur": null,
+        "latence_s": 4.97,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 0,
+        "non_soutenus": [],
+        "arabe": 0.91,
+        "source_citee": 1,
+        "longueur": 705
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nالهيئة ديال تحصيل الديون صيفرت لك أمر أداء (Commandement de payer) بديْن بقيمة 2'300.00 فرنك سويسري، مع فائدة 5٪ من 1 ماي 2026، بالإضافة إلى 73.30 فرنك سويسري كتكلفة التحصيل. خاصك تخلص المبلغ كاملًا أو تعترض على الدين في ظرف 10 أيام من تاريخ تسلمك للأمر.\n- شنو خاصك تدير؟\nخاصك تخلص مبلغ 2'300.00 فرنك سويسري مع الفائدة و73.30 فرنك سويسري كتكلفة التحصيل، أو إذا كنتي ما موافقش على الدين، خاصك تقدم اعتراض رسمي (opposition) في ظرف 10 أيام من تاريخ تسلمك للأمر.\n- آخر أجل:\n10 أيام من تاريخ تسلمك للأمر بالأداء.\n- المصدر: المادة 69 و74 من قانون تحصيل الديون والإفلاس السويسري (SchKG).\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل بهيئة تحصيل الديون (Office des poursuites) اللي صيفرات لك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.98,
+        "check_ok": 0,
+        "manquants": [
+          "delai : 20"
+        ],
+        "montant_ok": 1,
+        "date_ok": 0,
+        "non_soutenus": [],
+        "arabe": 0.9,
+        "source_citee": 1,
+        "longueur": 710
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : C'est un commandement de payer. Tu dois payer CHF 2'300.00 avec des intérêts à 5 % dès le 1er mai 2026, plus CHF 73.30 de frais de poursuite, dans les vingt jours. Si tu contestes la dette, tu dois faire opposition dans les dix jours.\n- Ce que tu dois faire : Tu dois payer le montant demandé ou contester la dette.\n- Avant quand : Tu dois agir dans les vingt jours à partir de la date de notification (2 octobre 2026).\n- Source : Courrier reçu le 2 octobre 2026, Office des poursuites de Montclair, poursuite n° 2026/7731.\n- Dernière phrase : En cas de doute, contacte directement l'Office des poursuites de Montclair.",
+        "erreur": null,
+        "latence_s": 4.05,
+        "check_ok": 0,
+        "manquants": [
+          "delai : 20"
+        ],
+        "montant_ok": 1,
+        "date_ok": 0,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 646
+      }
+    }
+  },
+  {
+    "id": "t08",
+    "categorie": "assurance_maladie",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "sommation",
+      "delai": "9 novembre 2026",
+      "montant": "CHF 1'267.50",
+      "action_demandee": "payer CHF 1'267.50 d'ici le 9 novembre 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.7108,
+    "sans_source": 0,
+    "passages": [
+      "kvg_art64a",
+      "kvg_art65",
+      "kvg_art64"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nشركة التأمين الصحي ما توصلاتش بواجبات التأمين الصحي ديالك ديال شهور يوليو، غشت، سبتمبر 2026، اللي هو 1'237.50 فرنك سويسري. زائد مصاريف التذكير اللي هي 30.00 فرنك سويسري. مجموع المبلغ اللي خاصك تخلصو هو 1'267.50 فرنك سويسري. خاصك تخلصو قبل 9 نونبر 2026، وإلا غادي يبداو إجراءات قانونية لتحصيل الدين.\nشنو خاصك تدير؟\nخاصك تخلص المبلغ الكلي 1'267.50 فرنك سويسري قبل أو فآخر أجل المحدد.\nآخر أجل:\n9 نونبر 2026.\nالمصدر: المادة 64a من قانون التأمين الصحي السويسري (KVG).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بشركة التأمين الصحي Exemple SA اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.59,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.97,
+        "source_citee": 1,
+        "longueur": 577
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nالشركة ديال التأمين (Assurance Santé Exemple SA) كاتقول أن واجبات التأمين ديالك من يوليو إلى سبتمبر 2026 ما تم دفعهمش، واللي هو 1'237.50 فرنك سويسري، مع إضافة 30 فرنك سويسري كتكاليف تذكير. مجموع المبلغ المطلوب هو 1'267.50 فرنك سويسري. خاصك تدفع هاد المبلغ قبل 9 نونبر 2026، وإلا يمكن للشركة تبدأ إجراءات قانونية.\n- شنو خاصك تدير؟\nخاصك تدفع مبلغ 1'267.50 فرنك سويسري للشركة قبل أو في تاريخ 9 نونبر 2026.\n- آخر أجل:\n9 نونبر 2026.\n- المصدر: الرسالة الأصلية الصادرة عن Assurance Santé Exemple SA.\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بشركة التأمين الصحة اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.52,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.89,
+        "source_citee": 0,
+        "longueur": 607
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Les primes de juillet à septembre 2026 ne sont pas payées. Il faut payer CHF 1'267.50 (CHF 1'237.50 de primes + CHF 30.00 de frais) avant le 9 novembre 2026. Sinon, ils engageront une poursuite.\n- Ce que tu dois faire : Tu dois payer CHF 1'267.50 avant le 9 novembre 2026.\n- Avant quand : Avant le 9 novembre 2026.\n- Source : Courrier de \"Assurance Santé Exemple SA\" (sommation de payer)\n- Dernière phrase : En cas de doute, contacte directement \"Assurance Santé Exemple SA\".",
+        "erreur": null,
+        "latence_s": 3.76,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 502
+      }
+    }
+  },
+  {
+    "id": "t09",
+    "categorie": "assurance_maladie",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Avis de mise en conformité",
+      "delai": "15. Oktober 2026",
+      "montant": null,
+      "action_demandee": "Souscrire une assurance maladie de base et confirmer l'affiliation à l'office cantonal de l'assurance maladie avant le 15 octobre 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.7662,
+    "sans_source": 0,
+    "passages": [
+      "kvg_art3_de",
+      "kvg_art64a",
+      "lei_art12"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nانت سكنت فالمقاطعة ديالنا نهار 15 يوليوز 2026، ولكن حسب المعلومات ديالنا، ما عندكش تأمين صحي أساسي. كل شخص ساكن فسويسرا لازم يتأمّن خلال ثلاثة أشهر من الإقامة. خاصك تاخذ تأمين أساسي قبل أو فآخر أجل 15 أكتوبر 2026 وتخبرنا بذلك. وإلا، غادي نعين لك شركة تأمين.\nشنو خاصك تدير؟\nخاصك تاخذ تأمين صحي أساسي (assurance de base) قبل أو فآخر أجل 15 أكتوبر 2026، وتخبر المكتب ديال التأمين الصحي (Amt für Krankenversicherung) بالانتساب ديالك.\nآخر أجل:\n15 أكتوبر 2026.\nالمصدر: المادة 3 من قانون التأمين الصحي السويسري (KVG).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بالمكتب ديال التأمين الصحي (Amt für Krankenversicherung) اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.47,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.86,
+        "source_citee": 1,
+        "longueur": 651
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nما عندكش تأمين مرضى رغم أنك ساكن في الكانتون من 15 يوليوز 2026. كل شخص ساكن في سويسرا لازم يتأمّن في ظرف 3 أشهر. خاصك تاخذ تأمين أساسي قبل 15 أكتوبر 2026 وتخبرنا بذلك.\n- شنو خاصك تدير؟\nخاصك تاخذ تأمين مرضى أساسي (Grundversicherung) قبل 15 أكتوبر 2026 وتثبت ذلك للهيئة.\n- آخر أجل:\n15 أكتوبر 2026.\n- المصدر: المادة 3 من قانون التأمين الصحي السويسري (KVG).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل ب \"Amt für Krankenversicherung Musterkanton\".",
+        "erreur": null,
+        "latence_s": 3.57,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.83,
+        "source_citee": 1,
+        "longueur": 460
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Tu as pris résidence dans le canton le 15 juillet 2026 et tu n'es pas assuré. Tu dois souscrire une assurance maladie de base avant le 15 octobre 2026, sinon le canton te désignera un assureur.\n- Ce que tu dois faire : Souscrire une assurance maladie de base et confirmer ton affiliation à l'office cantonal de l'assurance maladie avant le 15 octobre 2026.\n- Avant quand : Avant le 15 octobre 2026.\n- Source : Amt für Krankenversicherung Musterkanton, courrier \"Betrifft: fehlende Krankenversicherung\"\n- Dernière phrase : En cas de doute, contacte directement l'Amt für Krankenversicherung du canton.",
+        "erreur": null,
+        "latence_s": 3.44,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 627
+      }
+    }
+  },
+  {
+    "id": "t10",
+    "categorie": "assurance_maladie",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "décompte de prestations",
+      "delai": "5 novembre 2026",
+      "montant": "455.00",
+      "action_demandee": "payer le montant de CHF 455.00 jusqu'au 5 novembre 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.5856,
+    "sans_source": 0,
+    "passages": [
+      "kvg_art64",
+      "kvg_art65",
+      "kvg_art64a"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nالشركة ديال التأمين (Assurance Santé Exemple SA) كاتقول أن عليك تسديد مبلغ 455.00 فرنك سويسري، وهو النسبة ديالك (quote-part) من مصاريف العلاج بعد خصم المبلغ الثابت (franchise). خاصك تخلص هاد المبلغ حدّ 5 نونبر 2026.\nشنو خاصك تدير؟\nخاصك تخلص مبلغ 455.00 فرنك سويسري حدّ 5 نونبر 2026، أو تستعمل ورقة الأداء (bulletin de versement) اللي كتكون مع الرسالة.\nآخر أجل:\n5 نونبر 2026.\nالمصدر: النص الرئيسي ديال الرسالة (décompte de prestations n° 88213).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بشركة التأمين الصحي (Assurance Santé Exemple SA) اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.24,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.75,
+        "source_citee": 0,
+        "longueur": 577
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nالشركة ديال التأمين (Assurance Santé Exemple SA) كاتطلب منك تدفع مبلغ 455.00 فرنك سويسري، اللي هو التزامك في التكاليف (participation aux coûts) على العلاجات اللي تلقيتيها. خاصك تخلص هاد المبلغ حتى تاريخ 5 نونبر 2026.\n- شنو خاصك تدير؟\nخاصك تخلص مبلغ 455.00 فرنك سويسري للشركة (Assurance Santé Exemple SA) قبل أو في تاريخ 5 نونبر 2026.\n- آخر أجل:\n5 نونبر 2026.\n- المصدر: محتوى الرسالة (Décompte de prestations n° 88213).\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بالشركة (Assurance Santé Exemple SA) اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.06,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.72,
+        "source_citee": 0,
+        "longueur": 550
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Le courrier est un décompte de prestations de l'Assurance Santé Exemple SA. Il indique que tu dois payer CHF 455.00 pour ta participation aux coûts des traitements, jusqu'au 5 novembre 2026.\n- Ce que tu dois faire : Tu dois payer le montant de CHF 455.00 à l'Assurance Santé Exemple SA avant le 5 novembre 2026.\n- Avant quand : Avant le 5 novembre 2026.\n- Source : Courrier de l'Assurance Santé Exemple SA, décompte de prestations n° 88213.\n- Dernière phrase : En cas de doute, contacte directement l'Assurance Santé Exemple SA.",
+        "erreur": null,
+        "latence_s": 3.46,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 555
+      }
+    }
+  },
+  {
+    "id": "t11",
+    "categorie": "assurance_maladie",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Prämienverbilligung",
+      "delai": "30. November 2026",
+      "montant": "CHF 1'440.00",
+      "action_demandee": "Einreichen des beiliegenden Antragsformulars samt Steuerunterlagen"
+    },
+    "extraction_ok": true,
+    "top_score": 0.684,
+    "sans_source": 0,
+    "passages": [
+      "kvg_art65_de",
+      "schkg_art74_de",
+      "kvg_art64a_de"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nلديك احتمال أنك تستحق تخفيض واجبات التأمين الصحي بقيمة 1'440.00 فرنك سويسري في السنة. باش نقدر نحقق المطالبة ديالك، خاصك ترسل الاستمارة المرفقة مع وثائق الضرائب قبل 30 نونبر 2026.\nشنو خاصك تدير؟\nخاصك ترسل الاستمارة المرفقة مع جميع الوثائق المطلوبة (وثائق الضرائب) قبل 30 نونبر 2026.\nآخر أجل:\n30 نونبر 2026.\nالمصدر: المادة 64a من قانون التأمين الصحي السويسري (KVG).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بمديرية التأمين الاجتماعي (Sozialversicherungsamt) اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.89,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.93,
+        "source_citee": 1,
+        "longueur": 499
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nالشركة ديال التأمين الاجتماعية (Sozialversicherungsamt) تقول ليك أنك عندك احتمال تستاهل تخفيض في واجب التأمين الصحي بقيمة 1'440.00 فرنك سويسري للسنة. خاصك تقدم الطلب مع الوثائق الضريبية قبل 30 نونبر 2026.\n- شنو خاصك تدير؟\nخاصك ترسل الطلب المرفق مع جميع الوثائق الضريبية المطلوبة قبل 30 نونبر 2026.\n- آخر أجل:\n30 نونبر 2026.\n- المصدر: المادة 64a من قانون التأمين الصحي السويسري (KVG).\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل بالشركة ديال التأمين الاجتماعي اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.71,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.93,
+        "source_citee": 1,
+        "longueur": 502
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Tes primes d'assurance maladie peuvent être réduites de CHF 1'440.00 par an. Tu dois envoyer le formulaire de demande avec tes documents fiscaux avant le 30. November 2026.\n- Ce que tu dois faire : Envoie le formulaire (Prämienverbilligung) avec tes documents fiscaux (Steuerunterlagen) avant la date indiquée.\n- Avant quand : Avant le 30. November 2026.\n- Source : Courrier du Sozialversicherungsamt Musterkanton.\n- Dernière phrase : En cas de doute, contacte directement le Sozialversicherungsamt Musterkanton.",
+        "erreur": null,
+        "latence_s": 3.18,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 539
+      }
+    }
+  },
+  {
+    "id": "t12",
+    "categorie": "sejour",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "demande de renouvellement d'autorisation de séjour",
+      "delai": "6 novembre 2026",
+      "montant": "CHF 140.00",
+      "action_demandee": "retourner le formulaire ci-joint, une copie de votre passeport valable et une attestation de votre employeur"
+    },
+    "extraction_ok": true,
+    "top_score": 0.732,
+    "sans_source": 0,
+    "passages": [
+      "lei_art33",
+      "lei_art34",
+      "lei_art62"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nرخصة الإقامة ديالك غادي تسالي نهار 31 دجنبر 2026. باش تطلب تجديدها، خاصك ترسل الاستمارة المرفقة، نسخة من جواز السفر ديالك الساري، وشهادة من صاحب العمل ديالك قبل أو فآخر أجل هو 6 نونبر 2026. مبلغ 140.00 فرنك سويسري خاص يتخلص كتكلفة لمعالجة الطلب. التأخر قد يؤدي إلى إجراءات إضافية.\nشنو خاصك تدير؟\nخاصك تجمع الوثائق التالية: الاستمارة المرفقة، نسخة من جواز السفر الساري، وشهادة من صاحب العمل. ثم ترسلها كلها لخدمة السكان قبل أو فآخر أجل 6 نونبر 2026. كما خاصك تخلص مبلغ 140.00 فرنك سويسري.\nآخر أجل:\n6 نونبر 2026.\nالمصدر: الرسالة الرسمية الصادرة عن Service de la population.\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بService de la population اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.76,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.92,
+        "source_citee": 0,
+        "longueur": 688
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nرخصة الإقامة ديالك غادي تسالي نهار 31 دجنبر 2026. باش تطلب تجديدها، خاصك ترسل للخدمة ديال السكان النموذج المرفق، نسخة من جواز السفر ديالك الصالحة، وشهادة من صاحب العمل ديالك، كل ذلك قبل 6 نونبر 2026. كاين رسم إداري بقيمة 140.00 فرنك سويسري، و التأخير قد يؤدي إلى إجراءات إضافية.\n- شنو خاصك تدير؟\nخاصك تجمع الوثائق المطلوبة (النموذج، جواز السفر، شهادة العمل) وتعيدها في ظرف 6 نونبر 2026، مع دفع مبلغ 140.00 فرنك سويسري.\n- آخر أجل:\n6 نونبر 2026.\n- المصدر: الرسالة الرسمية الصادرة عن Service de la population.\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل بالService de la population اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 4.41,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.91,
+        "source_citee": 0,
+        "longueur": 622
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : تطلب منك الجهة المختصة تجديد تصريح الإقامة الخاص بك، ويجب عليك إرسال النموذج المرفق مع نسخة من جواز السفر الصالح وشهادة من صاحب العمل قبل 6 نوفمبر 2026، مع دفع مبلغ 140 فرنك سويسري.\n- Ce que tu dois faire : أرسل النموذج المرفق، نسخة من جواز السفر الصالح، وشهادة من صاحب العمل إلى الجهة المختصة قبل 6 نوفمبر 2026، ودفع مبلغ 140 فرنك سويسري.\n- Avant quand : قبل 6 نوفمبر 2026\n- Source : Service de la population - courrier\n- Dernière phrase : في حالة الشك، اتصل مباشرة بالجهة التي أرسلت لك هذا الخطاب.",
+        "erreur": null,
+        "latence_s": 3.35,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.76,
+        "source_citee": 0,
+        "longueur": 526
+      }
+    }
+  },
+  {
+    "id": "t13",
+    "categorie": "sejour",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Anmeldung Aufforderung",
+      "delai": "15. Oktober 2026",
+      "montant": null,
+      "action_demandee": "Persönliche Anmeldung bis zum 15. Oktober 2026 mit Pass und Mietvertrag"
+    },
+    "extraction_ok": true,
+    "top_score": 0.7456,
+    "sans_source": 0,
+    "passages": [
+      "lei_art12_de",
+      "lei_art34",
+      "kvg_art3_de"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nالشركة ديال مراقبة السكان في مدينة عينة (Musterstadt) كاتقول أنك دخلتي لسويسرا نهار 1 أكتوبر 2026، ولكن ما لازالش مسجلة عندهم. ككل أجنبي، خاصك تـتسجل عند السلطة المختصة في مكان إقامتك. خاصك تـتسجل شخصيا قبل 15 أكتوبر 2026، وتجيب معك جواز السفر و عقد الكراء.\nشنو خاصك تدير؟\nخاصك تـتسجل شخصيا عند السلطة المختصة في مكان إقامتك (Einwohnerkontrolle) قبل 15 أكتوبر 2026، وتجيب معك جواز السفر و عقد الكراء.\nآخر أجل:\n15 أكتوبر 2026.\nالمصدر: المادة 12 من قانون الأجانب والاندماج السويسري (LEI).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بالجماعة أو السلطة المختصة في مكان إقامتك.",
+        "erreur": null,
+        "latence_s": 4.34,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.93,
+        "source_citee": 1,
+        "longueur": 588
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nالجماعة ديالك ما تلقاتش إشعار الإقامة ديالك. خاصك تعلن عن إقامتك قبل 15 أكتوبر 2026 وتجيب معك جواز السفر و عقد الكراء.\n- شنو خاصك تدير؟\nخاصك تروح للجماعة ديالك قبل 15 أكتوبر 2026 وتقدم طلب إشعار الإقامة، مع جواز السفر و عقد الكراء.\n- آخر أجل:\n15 أكتوبر 2026.\n- المصدر: المادة 12 من قانون الأجانب والاندماج السويسري (LEI).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بالجماعة ديالك (Einwohnerkontrolle Musterstadt).",
+        "erreur": null,
+        "latence_s": 3.28,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.9,
+        "source_citee": 1,
+        "longueur": 431
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Tu as besoin de te présenter en personne à l'Einwohnerkontrolle de ta ville avant le 15 octobre 2026. Tu dois apporter ton passeport et ton contrat de location.\n- Ce que tu dois faire : Tu dois te rendre à l'Einwohnerkontrolle de ta commune avant le 15 octobre 2026. Apporte ton passeport et ton contrat de bail.\n- Avant quand : Avant le 15 octobre 2026.\n- Source : Courrier de l'Einwohnerkontrolle Musterstadt.\n- Dernière phrase : En cas de doute, contacte directement l'Einwohnerkontrolle de ta ville.",
+        "erreur": null,
+        "latence_s": 3.12,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 530
+      }
+    }
+  },
+  {
+    "id": "t14",
+    "categorie": "sejour",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "droit d'être entendu",
+      "delai": "22 octobre 2026",
+      "montant": null,
+      "action_demandee": "se déterminer par écrit et transmettre les pièces justificatives"
+    },
+    "extraction_ok": true,
+    "top_score": 0.6422,
+    "sans_source": 0,
+    "passages": [
+      "lei_art33",
+      "lei_art34",
+      "lei_art62"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nالجهة المختصة (Service de la population) تفكر في إلغاء رخصة الإقامة ديالك، لأنهم ما بقاوش مطمئنين على أنك تفي بشروط الحصول عليها. قبل ما يتخذوا قرار، عندك الحق تعطيهم جواب مكتوب وتقدم لهم الوثائق ديالك.\nشنو خاصك تدير؟\nخاصك ترسل جواب مكتوب للجهة المختصة وتوجد وتقدم جميع الوثائق اللي كتثبت أنك لازلت تفي بالشروط، كل هذا قبل تاريخ 22 أكتوبر 2026.\nآخر أجل:\n22 أكتوبر 2026.\nالمصدر: الرسالة الرسمية المقدمة.\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بالService de la population اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.64,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.89,
+        "source_citee": 0,
+        "longueur": 514
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nالجهة المسؤولة تدرس سحب رخصة الإقامة ديالك لأنها تقول أنك ما كتفيش بالشروط ديال منحها. قبل ما يتخذوا قرار، عندك فرصة تعبر بالكتابة وتقدم الوثائق ديالك حتى تاريخ 22 أكتوبر 2026.\n- شنو خاصك تدير؟\nخاصك ترسل رسالة مكتوبة للجهة المسؤولة وتقدم جميع الوثائق التي تدعم موقفك، وذلك قبل تاريخ 22 أكتوبر 2026.\n- آخر أجل:\n22 أكتوبر 2026.\n- المصدر: الرسالة الرسمية الصادرة عن Service de la population.\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بالService de la population اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.49,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.89,
+        "source_citee": 0,
+        "longueur": 509
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Le Service de la population veut peut-être annuler ton autorisation de séjour. Tu as le droit de donner ton avis par écrit et de donner des documents jusqu'au 22 octobre 2026. Si tu ne réponds pas, ils prendront une décision sans ton point de vue.\n- Ce que tu dois faire : Tu dois écrire une lettre pour donner ton point de vue et envoyer tous les documents qui prouvent que tu remplis les conditions de ton autorisation de séjour.\n- Avant quand : Tu dois le faire avant le 22 octobre 2026.\n- Source : Courrier du Service de la population (objet : droit d'être entendu avant décision)\n- Dernière phrase : En cas de doute, contacte directement le Service de la population qui t'a envoyé ce courrier.",
+        "erreur": null,
+        "latence_s": 3.54,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": null,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 725
+      }
+    }
+  },
+  {
+    "id": "t15",
+    "categorie": "sejour",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Gesuch um Niederlassungsbewilligung",
+      "delai": "2. November 2026",
+      "montant": "CHF 150.00",
+      "action_demandee": "Einreichen eines Nachweises der Sprachkenntnisse und Bezahlung der Gebühr von CHF 150.00 bis zum 2. November 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.6396,
+    "sans_source": 0,
+    "passages": [
+      "lei_art34_de",
+      "lei_art12_de",
+      "schkg_art74_de"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nطلب الإقامة الدائمة ديالك وصلنا. باش نقدر نحلّو، خاصك تقدم وثيقة تثبت معرفتك للغات حتى تاريخ 2 نونبر 2026. كما خاصك تخلص واجب التأمين الصحي أو الرسم بقيمة 150.00 فرنك سويسري لنفس التاريخ. إلا ما قدمتيش الوثيقة، ما يمكنش متابعة طلبك.\nشنو خاصك تدير؟\nخاصك تجمع وثيقة إثبات معرفتك للغات وتخلص مبلغ 150.00 فرنك سويسري.\nآخر أجل:\n2 نونبر 2026.\nالمصدر: الرسالة الرسمية من Migrationsamt (مكتب الهجرة).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بمكتب الهجرة اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.78,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.96,
+        "source_citee": 0,
+        "longueur": 489
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nطلب الإقامة الدائمة ديالك وصلنا. خاصك تقدم دليل على معرفتك للغات حتى تاريخ 2 نونبر 2026، وكذلك تخلص رسم الطلب اللي هو 150.00 فرنك سويسري. إلا ما قدمتيش الوثائق، ما يمكنش متابعة الطلب ديالك.\n- شنو خاصك تدير؟\nخاصك تجمع وثيقة إثبات معرفتك للغات وتقدمها، وكذلك تخلص مبلغ 150.00 فرنك سويسري، كل ذلك قبل أو في تاريخ 2 نونبر 2026.\n- آخر أجل:\n2 نونبر 2026.\n- المصدر: الرسالة الرسمية الصادرة عن Migrationsamt (مكتب الهجرة).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بمكتب الهجرة اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.85,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.96,
+        "source_citee": 0,
+        "longueur": 513
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Il faut fournir une preuve de ses connaissances linguistiques et payer une taxe de CHF 150.00 avant le 2 novembre 2026. Sans ces documents, la demande ne sera pas traitée.\n- Ce que tu dois faire : Tu dois présenter un certificat de langue et payer CHF 150.00 avant le 2 novembre 2026.\n- Avant quand : Avant le 2 novembre 2026.\n- Source : Courrier du Migrationsamt Musterkanton.\n- Dernière phrase : En cas de doute, contacte directement le Migrationsamt Musterkanton.",
+        "erreur": null,
+        "latence_s": 3.0,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 493
+      }
+    }
+  },
+  {
+    "id": "t16",
+    "categorie": "autre",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "Facture",
+      "delai": "9 novembre 2026",
+      "montant": "CHF 335.00",
+      "action_demandee": "Payer le montant de CHF 335.00 jusqu'au 9 novembre 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.532,
+    "sans_source": 1,
+    "passages": [],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nالهيئة المسؤولة على تحصيل رسوم التلفزة والإذاعة بعثت فاتورة سنوية ديال عام 2026 بقيمة 335.00 فرنك سويسري، وتطلب منك تخلصها قبل 9 نونبر 2026.\nشنو خاصك تدير؟\nخاصك تخلص مبلغ 335.00 فرنك سويسري قبل أو فآخر أجل 9 نونبر 2026.\nآخر أجل:\n9 نونبر 2026.\nالمصدر: الفاتورة المرسلة من طرف Organe de perception de la redevance radio et télévision.\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بالهيئة المسؤولة على تحصيل الرسوم (Organe de perception de la redevance radio et télévision).",
+        "erreur": null,
+        "latence_s": 3.73,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.73,
+        "source_citee": null,
+        "longueur": 485
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\n  وصلتك فاتورة سنوية لرسوم التلفزة والراديو لسنة 2026 بقيمة 335.00 فرنك سويسري، خاصك تخلصها حتى تاريخ 9 نونبر 2026.\n- شنو خاصك تدير؟\n  خاصك تخلص مبلغ 335.00 فرنك سويسري ل organe de perception de la redevance حتى تاريخ 9 نونبر 2026.\n- آخر أجل:\n  9 نونبر 2026.\n- المصدر:\n  الرسالة الأصلية من organe de perception de la redevance.\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة ب organe de perception de la redevance اللي صيفطات ليك الفاتورة.",
+        "erreur": null,
+        "latence_s": 3.58,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.71,
+        "source_citee": null,
+        "longueur": 462
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : C'est une facture pour la redevance radio et télévision de l'année 2026. Il faut payer CHF 335.00 avant le 9 novembre 2026.\n- Ce que tu dois faire : Tu dois payer la somme de CHF 335.00 avant le 9 novembre 2026.\n- Avant quand : Avant le 9 novembre 2026.\n- Source : Organe de perception de la redevance, Facture annuelle de la redevance radio et télévision 2026\n- Dernière phrase : En cas de doute, contacte directement l'organisme qui a envoyé le courrier.",
+        "erreur": null,
+        "latence_s": 3.13,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": null,
+        "longueur": 483
+      }
+    }
+  },
+  {
+    "id": "t17",
+    "categorie": "autre",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Ordnungsbusse",
+      "delai": "9. November 2026",
+      "montant": "CHF 40.00",
+      "action_demandee": "Bezahlen Sie den Betrag mit dem beiliegenden Einzahlungsschein"
+    },
+    "extraction_ok": true,
+    "top_score": 0.4632,
+    "sans_source": 1,
+    "passages": [],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nالشرطة البلدية ديال مدينة عينة غرّمتك مبلغ 40.00 فرنك سويسري لأنك وقفت فالمنطقة اللي ممنوعة الوقوف، نهار 2 أكتوبر 2026. خاصك تخلص هاد المبلغ.\nشنو خاصك تدير؟\nخاصك تخلص مبلغ 40.00 فرنك سويسري، باستخدام ورقة الأداء (Einzahlungsschein) اللي مع الرسالة.\nآخر أجل:\n9 نونبر 2026.\nالمصدر: الرسالة من الشرطة البلدية (Stadtpolizei Musterstadt).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بالشرطة البلدية ديال المدينة اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.42,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.88,
+        "source_citee": null,
+        "longueur": 446
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nتم تغريمك بمبلغ 40.00 فرنك سويسري لأنك وقفت في منطقة ممنوعة في Bahnhofstrasse نهار 2 أكتوبر 2026. خاصك تخلص المبلغ مع وصل الدفع المرفق.\n- شنو خاصك تدير؟\nخاصك تخلص مبلغ 40.00 فرنك سويسري قبل أو في تاريخ 9 نونبر 2026، باستخدام وصل الدفع المرفق مع الرسالة.\n- آخر أجل:\n9 نونبر 2026.\n- المصدر: الرسالة من الشرطة البلدية (Stadtpolizei Musterstadt).\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بالشرطة البلدية (Stadtpolizei Musterstadt).",
+        "erreur": null,
+        "latence_s": 3.48,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.82,
+        "source_citee": null,
+        "longueur": 447
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : تم توقيفك لوقوفك في منطقة ممنوعة يوم 2 أكتوبر 2026 في Bahnhofstrasse. عليك دفع غرامة قدرها CHF 40.00 قبل 9 نوفمبر 2026 باستخدام وصل الدفع المرفق.\n- Ce que tu dois faire : ادفع مبلغ CHF 40.00 قبل تاريخ 9 نوفمبر 2026 باستخدام وصل الدفع المرفق مع الرسالة.\n- Avant quand : قبل 9 نوفمبر 2026.\n- Source : Stadtpolizei Musterstadt, Ordnungsbusse.\n- Dernière phrase : في حالة الشك، اتصل مباشرة بالجهة التي أرسلت لك الرسالة (Stadtpolizei Musterstadt).",
+        "erreur": null,
+        "latence_s": 3.28,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.57,
+        "source_citee": null,
+        "longueur": 469
+      }
+    }
+  },
+  {
+    "id": "t18",
+    "categorie": "autre",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Rechnung",
+      "delai": "28. Oktober 2026",
+      "montant": "CHF 89.90",
+      "action_demandee": "Zahlung bis zum 28. Oktober 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.5054,
+    "sans_source": 1,
+    "passages": [],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nشركة Beispiel Telecom AG كاتطلب منك تخلص فاتورة أكتوبر 2026، اللي فيها مبلغ إجمالي قدره 89.90 فرنك سويسري.\nشنو خاصك تدير؟\nخاصك تخلص مبلغ 89.90 فرنك سويسري قبل أو فآخر أجل المحدد.\nآخر أجل:\n28 أكتوبر 2026.\nالمصدر: الفاتورة الصادرة عن شركة Beispiel Telecom AG.\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بشركة Beispiel Telecom AG.",
+        "erreur": null,
+        "latence_s": 3.26,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.8,
+        "source_citee": null,
+        "longueur": 343
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nشركة Beispiel Telecom AG كاتطلب منك تدفع فاتورة أكتوبر 2026، اللي هي 89.90 فرنك سويسري، قبل تاريخ 28 أكتوبر 2026.\n- شنو خاصك تدير؟\nخاصك تخلص المبلغ 89.90 فرنك سويسري قبل أو في تاريخ 28 أكتوبر 2026.\n- آخر أجل:\n28 أكتوبر 2026.\n- المصدر: الرسالة الأصلية من Beispiel Telecom AG.\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل بشركة Beispiel Telecom AG.",
+        "erreur": null,
+        "latence_s": 3.59,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.79,
+        "source_citee": null,
+        "longueur": 364
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : C'est une facture de la société Beispiel Telecom AG pour le mois d'octobre 2026. Elle comprend le prix de l'abonnement mobile (CHF 59.90) et une option supplémentaire pour l'international (CHF 30.00). Le total à payer est de CHF 89.90 et il faut le régler avant le 28 octobre 2026.\n- Ce que tu dois faire : Tu dois payer la somme de CHF 89.90 avant le 28 octobre 2026.\n- Avant quand : Avant le 28 octobre 2026.\n- Source : Courrier de Beispiel Telecom AG, section \"Rechnung für Oktober 2026\" et \"Zahlbar bis zum 28. Oktober 2026\".\n- Dernière phrase : En cas de doute, contacte directement Beispiel Telecom AG.",
+        "erreur": null,
+        "latence_s": 4.32,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": null,
+        "longueur": 635
+      }
+    }
+  },
+  {
+    "id": "t19",
+    "categorie": "autre",
+    "langue": "fr",
+    "extraction": {
+      "type_document": "Invitation à payer",
+      "delai": "16 novembre 2026",
+      "montant": "CHF 180.00",
+      "action_demandee": "Retourner le talon d'inscription signé et verser le montant"
+    },
+    "extraction_ok": true,
+    "top_score": 0.4839,
+    "sans_source": 1,
+    "passages": [],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nالمدرسة الابتدائية ديال Montclair تدعو الأطفال لحضور مخيم التزلج من 18 إلى 22 يناير 2027. المبلغ المطلوب من كل عائلة هو 180.00 فرنك سويسري.\nشنو خاصك تدير؟\nخاصك ترسل الورقة المرفقة (talon d'inscription) موقعة، وتخلص المبلغ 180.00 فرنك سويسري.\nآخر أجل:\n16 نونبر 2026.\nالمصدر: الرسالة الصادرة عن المدرسة الابتدائية ديال Montclair.\nإلا ما فهميتش شي حاجة أو عندك شك، تاصل بالمدرسة الابتدائية ديال Montclair.",
+        "erreur": null,
+        "latence_s": 4.23,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.86,
+        "source_citee": null,
+        "longueur": 422
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\n  المدرسة الابتدائية ديال Montclair دعاتكم لحضور المخيم ديال التزلج من 18 إلى 22 يناير 2027. الثمن لكل عائلة هو 180.00 فرنك سويسري. خاصكم ترسلو التيلون الموقّع وتخلصوا المبلغ حتى 16 نونبر 2026.\n- شنو خاصك تدير؟\n  خاصك ترسل التيلون الموقّع وتخلص مبلغ 180.00 فرنك سويسري، كل هذا قبل 16 نونبر 2026.\n- آخر أجل:\n  16 نونبر 2026.\n- المصدر:\n  الرسالة من المدرسة الابتدائية ديال Montclair.\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بالمدرسة الابتدائية ديال Montclair.",
+        "erreur": null,
+        "latence_s": 3.84,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.92,
+        "source_citee": null,
+        "longueur": 487
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : Il faut payer CHF 180.00 pour le camp de ski de l'école primaire de Montclair qui aura lieu en janvier 2027. Il faut aussi renvoyer le talon d'inscription signé.\n- Ce que tu dois faire : Tu dois renvoyer le talon d'inscription signé et payer CHF 180.00.\n- Avant quand : Avant le 16 novembre 2026.\n- Source : École primaire de Montclair, courrier \"Camp de ski 2027\"\n- Dernière phrase : En cas de doute, contacte directement l'école primaire de Montclair.",
+        "erreur": null,
+        "latence_s": 3.02,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": null,
+        "longueur": 480
+      }
+    }
+  },
+  {
+    "id": "t20",
+    "categorie": "rappel_poursuite",
+    "langue": "de",
+    "extraction": {
+      "type_document": "Mahnung",
+      "delai": "22. Oktober 2026",
+      "montant": "CHF 422.30",
+      "action_demandee": "Überweisung des Betrags bis zum 22. Oktober 2026"
+    },
+    "extraction_ok": true,
+    "top_score": 0.5638,
+    "sans_source": 0,
+    "passages": [
+      "kvg_art64a_de",
+      "schkg_art74_de",
+      "schkg_art69"
+    ],
+    "variantes": {
+      "full": {
+        "reponse": "شنو كاتقول الرسالة؟\nالجماعة ديال Musterstadt كاتطلب منك تخلص فاتورة ديال الكهرباء أو الماء رقم 774120 اللي هي 412.30 فرنك سويسري، مع مصاريف التذكير اللي هي 10 فرنك سويسري، مجموعها 422.30 فرنك سويسري. خاصك تخلص المبلغ قبل 22 أكتوبر 2026، وإلا غادي يبداو إجراءات تحصيل الدين.\nشنو خاصك تدير؟\nخاصك تخلص المبلغ الكلي 422.30 فرنك سويسري قبل أو فآخر أجل 22 أكتوبر 2026. تقدر تخلص بالبريد أو عبر البنك أو بأي وسيلة أخرى مع ذكر رقم الفاتورة.\nآخر أجل:\n22 أكتوبر 2026.\nالمصدر: الفقرة الأولى من المادة 64a من قانون التأمين الصحي السويسري (KVG) المتعلقة بالتذكير بالخلاص.\nإلا ما فهميتش شي حاجة أو عندك مشكل فالخلاص، تاصل مباشرة بالجماعة ديال Musterstadt (Stadtwerke Musterstadt).",
+        "erreur": null,
+        "latence_s": 4.84,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.9,
+        "source_citee": 1,
+        "longueur": 666
+      },
+      "no_glossary": {
+        "reponse": "- شنو كاتقول الرسالة؟\nالشركة ديال الماء والكهرباء (Stadtwerke) كاتطلب منك تدفع فاتورة بقيمة 422.30 فرنك سويسري، بما فيها رسوم تذكير بقيمة 10 فرنك سويسري، قبل تاريخ 22 أكتوبر 2026. وإلا ما تدفعتيش، غادي يبداو إجراءات قانونية لتحصيل الدين.\n- شنو خاصك تدير؟\nخاصك تخلص المبلغ الكلي 422.30 فرنك سويسري قبل أو في تاريخ 22 أكتوبر 2026.\n- آخر أجل:\n22 أكتوبر 2026.\n- المصدر: الرسالة الرسمية (Mahnung) الصادرة عن Stadtwerke Musterstadt.\n- إلا ما فهميتش شي حاجة أو عندك شك، تاصل مباشرة بشركة Stadtwerke Musterstadt اللي صيفطات ليك الرسالة.",
+        "erreur": null,
+        "latence_s": 3.93,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.85,
+        "source_citee": 0,
+        "longueur": 528
+      },
+      "baseline": {
+        "reponse": "- Ce que dit le courrier : C'est un avertissement (Mahnung) pour une facture impayée. Il faut payer CHF 422.30 avant le 22 octobre 2026, sinon ils lanceront une procédure de recouvrement (Betreibung).\n- Ce que tu dois faire : Tu dois payer la somme de CHF 422.30 avant le 22 octobre 2026.\n- Avant quand : Avant le 22 octobre 2026.\n- Source : Courrier reçu de Stadtwerke Musterstadt.\n- Dernière phrase : En cas de doute, contacte directement Stadtwerke Musterstadt.",
+        "erreur": null,
+        "latence_s": 3.36,
+        "check_ok": 1,
+        "manquants": [],
+        "montant_ok": 1,
+        "date_ok": 1,
+        "non_soutenus": [],
+        "arabe": 0.0,
+        "source_citee": 0,
+        "longueur": 464
+      }
+    }
+  }
+]
