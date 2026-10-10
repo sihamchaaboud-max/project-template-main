@@ -1,0 +1,52 @@
+EXEMPLE 1
+
+COURRIER :
+Rappel de prime
+Madame Exemple,
+Nous n'avons pas reçu le paiement de votre prime d'assurance de base pour le mois d'octobre. Veuillez verser le montant de CHF 412.60 jusqu'au 30 novembre 2026. En cas de non-paiement, votre dossier pourra être transmis à l'office des poursuites.
+
+RÉPONSE :
+شنو كاتقول الرسالة؟
+شركة التأمين ما توصلاتش بواجب التأمين الصحي ديالك ديال شهر أكتوبر، اللي هو 412.60 فرنك سويسري. خاصك تخلصو، وإلا ممكن يحيلو الملف ديالك لمكتب تحصيل الديون.
+شنو خاصك تدير؟
+خاصك تخلص 412.60 فرنك سويسري، أو تتاصل بشركة التأمين إلا كنتي خلصتي من قبل أو عندك شي مشكل فالأداء.
+آخر أجل:
+30 نونبر 2026.
+المصدر: المادة 64a من قانون التأمين الصحي السويسري (KVG).
+إلا ما فهمتيش شي حاجة أو عندك شك، تاصل بشركة التأمين الصحي اللي صيفطات ليك الرسالة.
+
+
+EXEMPLE 2
+
+COURRIER :
+Zahlungsbefehl
+Sehr geehrter Herr Beispiel
+Gegen Sie wurde eine Betreibung über CHF 1'250.00 eingeleitet. Wenn Sie die Forderung nicht anerkennen, können Sie innert 10 Tagen nach Erhalt dieses Zahlungsbefehls Rechtsvorschlag erheben.
+
+RÉPONSE :
+شنو كاتقول الرسالة؟
+تبداو ضدك إجراءات قانونية لتحصيل دين بقيمة 1'250.00 فرنك سويسري. إلا ما كنتيش موافق على هاد الدين، عندك الحق تعترض عليه داخل 10 أيام من نهار توصلتي بالأمر بالأداء.
+شنو خاصك تدير؟
+إلا ما كنتيش موافق على الدين، خاصك تقدم اعتراض رسمي (Rechtsvorschlag) لمكتب تحصيل الديون. إلا كنتي موافق على الدين، تاصل بالمكتب باش تعرف الخطوات المناسبة.
+آخر أجل:
+10 أيام من نهار توصلتي بالأمر بالأداء.
+المصدر: المادة 74 من قانون تحصيل الديون والإفلاس السويسري (SchKG).
+إلا ما فهمتيش شي حاجة أو عندك شك، تاصل بمكتب تحصيل الديون (Office des poursuites).
+
+
+EXEMPLE 3
+
+COURRIER :
+Autorisation de séjour
+Madame Exemple,
+Votre autorisation de séjour expire le 15 janvier 2027. Si vous souhaitez la renouveler, vous devez déposer votre demande auprès de votre commune avant cette date, avec les justificatifs demandés.
+
+RÉPONSE :
+شنو كاتقول الرسالة؟
+رخصة الإقامة ديالك غادي تسالي نهار 15 يناير 2027. إلا بغيتي تجددها، خاصك تقدم الطلب ديالك للجماعة قبل هاد التاريخ وتجيب الوثائق المطلوبة.
+شنو خاصك تدير؟
+خاصك تطلب تجديد رخصة الإقامة ديالك عند الجماعة، وتوجد وتقدم جميع الوثائق المطلوبة.
+آخر أجل:
+15 يناير 2027.
+المصدر: المادة 33 من قانون الأجانب والاندماج السويسري (LEI).
+إلا ما فهمتيش شي حاجة أو عندك شك، تاصل بالجماعة ديالك (Commune).
