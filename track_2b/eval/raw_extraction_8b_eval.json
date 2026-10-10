@@ -1,0 +1,496 @@
+[
+  {
+    "id": "t01",
+    "extraction": {
+      "categorie": "rappel_poursuite",
+      "type_document": "commandement_de_payer",
+      "delai": "2026-10-25",
+      "montant": 1250.0,
+      "action_demandee": "Payer la somme de CHF 1'250.00, plus frais de poursuite, dans les vingt jours suivant la notification."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"rappel_poursuite\",\n  \"type_document\": \"commandement_de_payer\",\n  \"delai\": \"2026-10-25\",\n  \"montant\": 1250.00,\n  \"action_demandee\": \"Payer la somme de CHF 1'250.00, plus frais de poursuite, dans les vingt jours suivant la notification.\"\n}\n```",
+    "attendu": {
+      "type_document": "commandement_de_payer",
+      "delai": "2026-10-15",
+      "montant": 1250.0,
+      "action_demandee": "faire opposition si la dette est contestée"
+    },
+    "top3": [
+      "schkg_art69",
+      "schkg_art74",
+      "kvg_art64a"
+    ],
+    "top_score": 0.7354,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t02",
+    "extraction": {
+      "categorie": "assurance_maladie",
+      "type_document": "mahnung",
+      "delai": "2026-11-09",
+      "montant": 432.5,
+      "action_demandée": "Effectuer un virement de CHF 432.50 d'ici le 9 novembre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"assurance_maladie\",\n  \"type_document\": \"mahnung\",\n  \"delai\": \"2026-11-09\",\n  \"montant\": 432.50,\n  \"action_demandée\": \"Effectuer un virement de CHF 432.50 d'ici le 9 novembre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "mahnung_praemie",
+      "delai": "2026-11-09",
+      "montant": 432.5,
+      "action_demandee": "payer le total"
+    },
+    "top3": [
+      "kvg_art64a",
+      "kvg_art65",
+      "kvg_art64"
+    ],
+    "top_score": 0.5783,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t03",
+    "extraction": {
+      "categorie": "sejour",
+      "type_document": "demande_de_documents",
+      "delai": "2026-11-02",
+      "montant": null,
+      "action_demandee": "Transmettre une attestation de logement et une copie du contrat de travail d'ici le 2 novembre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"sejour\",\n  \"type_document\": \"demande_de_documents\",\n  \"delai\": \"2026-11-02\",\n  \"montant\": null,\n  \"action_demandee\": \"Transmettre une attestation de logement et une copie du contrat de travail d'ici le 2 novembre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "demande_documents",
+      "delai": "2026-11-02",
+      "montant": null,
+      "action_demandee": "envoyer attestation de logement et contrat de travail"
+    },
+    "top3": [
+      "lei_art33",
+      "lei_art34",
+      "lei_art12"
+    ],
+    "top_score": 0.6886,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t04",
+    "extraction": {
+      "categorie": "rappel_poursuite",
+      "type_document": "commandement_de_payer",
+      "delai": "2026-10-26",
+      "montant": 3553.3,
+      "action_demandée": "Payer la somme de CHF 3'480.00 plus les frais de poursuite de CHF 73.30 dans les 20 jours suivant la notification."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"rappel_poursuite\",\n  \"type_document\": \"commandement_de_payer\",\n  \"delai\": \"2026-10-26\",\n  \"montant\": 3553.30,\n  \"action_demandée\": \"Payer la somme de CHF 3'480.00 plus les frais de poursuite de CHF 73.30 dans les 20 jours suivant la notification.\"\n}\n```",
+    "attendu": {
+      "type_document": "zahlungsbefehl",
+      "delai": "2026-10-16",
+      "montant": 3480.0,
+      "action_demandee": "faire opposition (Rechtsvorschlag) si la dette est contestée"
+    },
+    "top3": [
+      "schkg_art69",
+      "schkg_art74",
+      "schkg_art67"
+    ],
+    "top_score": 0.6438,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t05",
+    "extraction": {
+      "categorie": "rappel_poursuite",
+      "type_document": "facture",
+      "delai": "2026-10-20",
+      "montant": 201.4,
+      "action_demandee": "Régler le montant total de CHF 201.40 d'ici le 20 octobre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"rappel_poursuite\",\n  \"type_document\": \"facture\",\n  \"delai\": \"2026-10-20\",\n  \"montant\": 201.40,\n  \"action_demandee\": \"Régler le montant total de CHF 201.40 d'ici le 20 octobre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "dernier_rappel",
+      "delai": "2026-10-20",
+      "montant": 201.4,
+      "action_demandee": "payer le total"
+    },
+    "top3": [
+      "schkg_art69",
+      "kvg_art64a",
+      "schkg_art74"
+    ],
+    "top_score": 0.5652,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t06",
+    "extraction": {
+      "categorie": "rappel_poursuite",
+      "type_document": "mahnung",
+      "delai": "2026-10-23",
+      "montant": 1030.0,
+      "action_demandee": "Payer le montant total de CHF 1'030.00 d'ici le 23 octobre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"rappel_poursuite\",\n  \"type_document\": \"mahnung\",\n  \"delai\": \"2026-10-23\",\n  \"montant\": 1030.00,\n  \"action_demandee\": \"Payer le montant total de CHF 1'030.00 d'ici le 23 octobre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "mahnung_inkasso",
+      "delai": "2026-10-23",
+      "montant": 1030.0,
+      "action_demandee": "payer le montant total"
+    },
+    "top3": [
+      "schkg_art69",
+      "schkg_art74",
+      "kvg_art64a"
+    ],
+    "top_score": 0.5662,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t07",
+    "extraction": {
+      "categorie": "rappel_poursuite",
+      "type_document": "commandement_de_payer",
+      "delai": "2026-10-22",
+      "montant": 2373.3,
+      "action_demandee": "Payer la somme de CHF 2'300.00 avec intérêts et frais de poursuite dans les vingt jours dès la notification."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"rappel_poursuite\",\n  \"type_document\": \"commandement_de_payer\",\n  \"delai\": \"2026-10-22\",\n  \"montant\": 2373.30,\n  \"action_demandee\": \"Payer la somme de CHF 2'300.00 avec intérêts et frais de poursuite dans les vingt jours dès la notification.\"\n}\n```",
+    "attendu": {
+      "type_document": "commandement_de_payer",
+      "delai": "2026-10-12",
+      "montant": 2300.0,
+      "action_demandee": "faire opposition si la dette est contestée, sinon payer"
+    },
+    "top3": [
+      "schkg_art69",
+      "schkg_art74",
+      "schkg_art67"
+    ],
+    "top_score": 0.6958,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t08",
+    "extraction": {
+      "categorie": "assurance_maladie",
+      "type_document": "sommation_de_payer",
+      "delai": "2026-11-09",
+      "montant": 1267.5,
+      "action_demandee": "Payer la somme de CHF 1'267.50 d'ici le 9 novembre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"assurance_maladie\",\n  \"type_document\": \"sommation_de_payer\",\n  \"delai\": \"2026-11-09\",\n  \"montant\": 1267.50,\n  \"action_demandee\": \"Payer la somme de CHF 1'267.50 d'ici le 9 novembre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "sommation_prime",
+      "delai": "2026-11-09",
+      "montant": 1267.5,
+      "action_demandee": "payer le total"
+    },
+    "top3": [
+      "kvg_art64a",
+      "kvg_art65",
+      "kvg_art64"
+    ],
+    "top_score": 0.7168,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t09",
+    "extraction": {
+      "categorie": "assurance_maladie",
+      "type_document": "demande_d'inscription_assurance",
+      "delai": "2026-10-15",
+      "montant": null,
+      "action_demandée": "Conclure une assurance maladie de base d'ici le 15 octobre 2026 et en informer l'administration."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"assurance_maladie\",\n  \"type_document\": \"demande_d'inscription_assurance\",\n  \"delai\": \"2026-10-15\",\n  \"montant\": null,\n  \"action_demandée\": \"Conclure une assurance maladie de base d'ici le 15 octobre 2026 et en informer l'administration.\"\n}\n```",
+    "attendu": {
+      "type_document": "aufforderung_versicherungspflicht",
+      "delai": "2026-10-15",
+      "montant": null,
+      "action_demandee": "souscrire une assurance de base et le communiquer à l'office"
+    },
+    "top3": [
+      "kvg_art3",
+      "kvg_art64a",
+      "lei_art12"
+    ],
+    "top_score": 0.7772,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t10",
+    "extraction": {
+      "categorie": "assurance_maladie",
+      "type_document": "decompte_de_prestations",
+      "delai": "2026-11-05",
+      "montant": 455.0,
+      "action_demandee": "Payer la participation aux coûts de CHF 455.00 d'ici le 5 novembre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"assurance_maladie\",\n  \"type_document\": \"decompte_de_prestations\",\n  \"delai\": \"2026-11-05\",\n  \"montant\": 455.00,\n  \"action_demandee\": \"Payer la participation aux coûts de CHF 455.00 d'ici le 5 novembre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "decompte_prestations",
+      "delai": "2026-11-05",
+      "montant": 455.0,
+      "action_demandee": "payer la participation aux coûts"
+    },
+    "top3": [
+      "kvg_art64",
+      "kvg_art65",
+      "kvg_art64a"
+    ],
+    "top_score": 0.6254,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t11",
+    "extraction": {
+      "categorie": "sejour",
+      "type_document": "formulaire_de_demande",
+      "delai": "2026-11-30",
+      "montant": 1440.0,
+      "action_demandee": "Renvoyer le formulaire de demande accompagné des documents fiscaux avant le 30 novembre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"sejour\",\n  \"type_document\": \"formulaire_de_demande\",\n  \"delai\": \"2026-11-30\",\n  \"montant\": 1440.00,\n  \"action_demandee\": \"Renvoyer le formulaire de demande accompagné des documents fiscaux avant le 30 novembre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "praemienverbilligung_antrag",
+      "delai": "2026-11-30",
+      "montant": 1440.0,
+      "action_demandee": "envoyer le formulaire de demande et les documents fiscaux"
+    },
+    "top3": [
+      "kvg_art65",
+      "kvg_art64a",
+      "schkg_art74"
+    ],
+    "top_score": 0.6802,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t12",
+    "extraction": {
+      "categorie": "sejour",
+      "type_document": "formulaire_de_renouvellement",
+      "delai": "2026-11-06",
+      "montant": 140.0,
+      "action_demandee": "Retourner le formulaire de renouvellement, une copie de votre passeport valable et une attestation de votre employeur avant le 6 novembre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"sejour\",\n  \"type_document\": \"formulaire_de_renouvellement\",\n  \"delai\": \"2026-11-06\",\n  \"montant\": 140.00,\n  \"action_demandee\": \"Retourner le formulaire de renouvellement, une copie de votre passeport valable et une attestation de votre employeur avant le 6 novembre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "renouvellement_autorisation",
+      "delai": "2026-11-06",
+      "montant": 140.0,
+      "action_demandee": "envoyer le formulaire, le passeport et l'attestation de l'employeur, et payer l'émolument"
+    },
+    "top3": [
+      "lei_art33",
+      "lei_art34",
+      "lei_art12"
+    ],
+    "top_score": 0.7292,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t13",
+    "extraction": null,
+    "sortie_brute": "```json\n{\n  \"categorie\": \"sejour\",\n  \"type_document\": \"avis_d_anmeldung\",\n  \"delai\": \"2026-10-15\",\n  \"montant\": null,\n  \"action_demandee\": \"S\\'annoncer personnellement auprès des autorités de séjour avant le 15 octobre 2026, en présentant le passeport et le contrat de location.\"\n}\n```",
+    "attendu": {
+      "type_document": "aufforderung_anmeldung",
+      "delai": "2026-10-15",
+      "montant": null,
+      "action_demandee": "s'annoncer en personne avec le passeport et le contrat de bail"
+    },
+    "top3": [
+      "lei_art12",
+      "lei_art34",
+      "kvg_art3"
+    ],
+    "top_score": 0.7482,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t14",
+    "extraction": {
+      "categorie": "sejour",
+      "type_document": "avis_de_droit_etre_entendu",
+      "delai": "2026-10-22",
+      "montant": null,
+      "action_demandee": "Transmettre par écrit ses pièces justificatives et ses observations avant le 22 octobre 2026"
+    },
+    "sortie_brute": "{\"categorie\": \"sejour\", \"type_document\": \"avis_de_droit_etre_entendu\", \"delai\": \"2026-10-22\", \"montant\": null, \"action_demandee\": \"Transmettre par écrit ses pièces justificatives et ses observations avant le 22 octobre 2026\"}",
+    "attendu": {
+      "type_document": "droit_etre_entendu_revocation",
+      "delai": "2026-10-22",
+      "montant": null,
+      "action_demandee": "répondre par écrit avec les pièces justificatives"
+    },
+    "top3": [
+      "lei_art33",
+      "lei_art34",
+      "lei_art62"
+    ],
+    "top_score": 0.674,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t15",
+    "extraction": {
+      "categorie": "sejour",
+      "type_document": "demande_de_permis_de_séjour",
+      "delai": "2026-11-02",
+      "montant": 150.0,
+      "action_demandée": "Fournir un certificat de connaissance de la langue et payer les frais de CHF 150.00 d'ici le 2 novembre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"sejour\",\n  \"type_document\": \"demande_de_permis_de_séjour\",\n  \"delai\": \"2026-11-02\",\n  \"montant\": 150.00,\n  \"action_demandée\": \"Fournir un certificat de connaissance de la langue et payer les frais de CHF 150.00 d'ici le 2 novembre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "nachforderung_niederlassung",
+      "delai": "2026-11-02",
+      "montant": 150.0,
+      "action_demandee": "envoyer le certificat de langue et payer la taxe"
+    },
+    "top3": [
+      "lei_art34",
+      "lei_art12",
+      "schkg_art74"
+    ],
+    "top_score": 0.6261,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t16",
+    "extraction": {
+      "categorie": "rappel_poursuite",
+      "type_document": "facture",
+      "delai": "2026-11-09",
+      "montant": 335.0,
+      "action_demandee": "Payer la facture annuelle de la redevance radio et télévision d'un montant de 335.00 CHF d'ici le 9 novembre 2026."
+    },
+    "sortie_brute": "{\"categorie\": \"rappel_poursuite\", \"type_document\": \"facture\", \"delai\": \"2026-11-09\", \"montant\": 335.00, \"action_demandee\": \"Payer la facture annuelle de la redevance radio et télévision d'un montant de 335.00 CHF d'ici le 9 novembre 2026.\"}",
+    "attendu": {
+      "type_document": "autre",
+      "delai": "2026-11-09",
+      "montant": 335.0,
+      "action_demandee": "payer la facture"
+    },
+    "top3": [
+      "schkg_art69",
+      "kvg_art64",
+      "kvg_art64a"
+    ],
+    "top_score": 0.5226,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t17",
+    "extraction": {
+      "categorie": "rappel_poursuite",
+      "type_document": "ordonnance_de_paiement",
+      "delai": "2026-11-09",
+      "montant": 40.0,
+      "action_demandee": "Payer la somme de CHF 40.00 d'ici le 9 novembre 2026"
+    },
+    "sortie_brute": "{\"categorie\": \"rappel_poursuite\", \"type_document\": \"ordonnance_de_paiement\", \"delai\": \"2026-11-09\", \"montant\": 40.00, \"action_demandee\": \"Payer la somme de CHF 40.00 d'ici le 9 novembre 2026\"}",
+    "attendu": {
+      "type_document": "autre",
+      "delai": "2026-11-09",
+      "montant": 40.0,
+      "action_demandee": "payer l'amende"
+    },
+    "top3": [
+      "kvg_art64a",
+      "schkg_art74",
+      "schkg_art69"
+    ],
+    "top_score": 0.4677,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t18",
+    "extraction": {
+      "categorie": "assurance_maladie",
+      "type_document": "facture_mobile",
+      "delai": "2026-10-28",
+      "montant": 89.9,
+      "action_demandee": "Payer la facture de téléphonie mobile d'un montant de 89.90 CHF d'ici le 28 octobre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"assurance_maladie\",\n  \"type_document\": \"facture_mobile\",\n  \"delai\": \"2026-10-28\",\n  \"montant\": 89.90,\n  \"action_demandee\": \"Payer la facture de téléphonie mobile d'un montant de 89.90 CHF d'ici le 28 octobre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "autre",
+      "delai": "2026-10-28",
+      "montant": 89.9,
+      "action_demandee": "payer la facture"
+    },
+    "top3": [
+      "kvg_art64",
+      "kvg_art64a",
+      "kvg_art65"
+    ],
+    "top_score": 0.5053,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t19",
+    "extraction": {
+      "categorie": "sejour",
+      "type_document": "inscription_camp",
+      "delai": "2026-11-16",
+      "montant": 180.0,
+      "action_demandee": "Retourner le talon d'inscription signé et verser CHF 180.00 d'ici le 16 novembre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"sejour\",\n  \"type_document\": \"inscription_camp\",\n  \"delai\": \"2026-11-16\",\n  \"montant\": 180.00,\n  \"action_demandee\": \"Retourner le talon d'inscription signé et verser CHF 180.00 d'ici le 16 novembre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "autre",
+      "delai": "2026-11-16",
+      "montant": 180.0,
+      "action_demandee": "retourner le talon signé et payer la participation"
+    },
+    "top3": [
+      "kvg_art64",
+      "kvg_art65",
+      "kvg_art64a"
+    ],
+    "top_score": 0.4818,
+    "avertissement": null,
+    "erreur": null
+  },
+  {
+    "id": "t20",
+    "extraction": {
+      "categorie": "rappel_poursuite",
+      "type_document": "mahnung",
+      "delai": "2026-10-22",
+      "montant": 422.3,
+      "action_demandée": "Effectuer le paiement de CHF 422.30 d'ici le 22 octobre 2026."
+    },
+    "sortie_brute": "```json\n{\n  \"categorie\": \"rappel_poursuite\",\n  \"type_document\": \"mahnung\",\n  \"delai\": \"2026-10-22\",\n  \"montant\": 422.30,\n  \"action_demandée\": \"Effectuer le paiement de CHF 422.30 d'ici le 22 octobre 2026.\"\n}\n```",
+    "attendu": {
+      "type_document": "mahnung",
+      "delai": "2026-10-22",
+      "montant": 422.3,
+      "action_demandee": "payer le total"
+    },
+    "top3": [
+      "kvg_art64a",
+      "schkg_art74",
+      "schkg_art69"
+    ],
+    "top_score": 0.557,
+    "avertissement": null,
+    "erreur": null
+  }
+]
