@@ -1,15 +1,15 @@
-# Benchmark extraction + citation : prompt d'évaluation (categorie + ISO), Apertus 8b
+# Benchmark extraction + citation : prompt v2 (categorie + ISO), Apertus 8b
 
 Courriers : 20. Seuil de source : 0.54.
 
 ## Global
 
-- JSON exploitable : **95%**
-- Catégorie : **70%**
-- Délai exact : **80%**
-- Montant exact : **85%**
+- JSON exploitable : **100%**
+- Catégorie : **75%**
+- Délai exact : **85%**
+- Montant exact : **90%**
 - Citation correcte : **85%**
-- Latence moyenne d'extraction : 1.25 s
+- Latence moyenne d'extraction : 1.24 s
 - Erreurs d'appel : 0 ; recherche de secours (passage de test) : 0
 
 ## Par catégorie
@@ -19,19 +19,19 @@ Courriers : 20. Seuil de source : 0.54.
 | assurance_maladie | 5 | 100% | 80% | 100% | 100% | 100% |
 | autre | 4 | 100% | 0% | 100% | 100% | 100% |
 | rappel_poursuite | 6 | 100% | 100% | 50% | 67% | 50% |
-| sejour | 5 | 80% | 80% | 80% | 80% | 100% |
+| sejour | 5 | 100% | 100% | 100% | 100% | 100% |
 
 ## Par langue
 
 | langue | n | JSON | catégorie | délai | montant | citation |
 |---|---|---|---|---|---|---|
-| de | 10 | 90% | 60% | 80% | 80% | 80% |
+| de | 10 | 100% | 70% | 90% | 90% | 80% |
 | fr | 10 | 100% | 80% | 80% | 90% | 90% |
 
 ## Montant : avec et sans montant dans le courrier
 
 - Courriers avec montant (16) : 88%
-- Courriers sans montant, `null` attendu (4) : 75%
+- Courriers sans montant, `null` attendu (4) : 100%
 
 ## Détail
 
@@ -49,7 +49,7 @@ Courriers : 20. Seuil de source : 0.54.
 | t10 | assurance_maladie | OK | OK | OK | OK | OK |
 | t11 | assurance_maladie | OK | RATE | OK | OK | OK |
 | t12 | sejour | OK | OK | OK | OK | OK |
-| t13 | sejour | RATE | RATE | RATE | RATE | OK |
+| t13 | sejour | OK | OK | OK | OK | OK |
 | t14 | sejour | OK | OK | OK | OK | OK |
 | t15 | sejour | OK | OK | OK | OK | OK |
 | t16 | autre | OK | RATE | OK | OK | OK |

@@ -1,33 +1,35 @@
 """
 eval/run_eval.py : benchmark principal de Jisr (extraction + chiffres + citation)
 
-Trois façons d'extraire (--extractor) :
+Extracteurs (--extractor) :
   pipeline : le VRAI pipeline de B (src/pipeline.py : extract + get_passages). Défaut.
-             Pas de champ "categorie" dans son extraction : la catégorie n'est pas notée.
-  eval     : prompt d'extraction de ce fichier (EVAL_PROMPT : categorie + dates AAAA-MM-JJ)
-             appelé directement avec call_llm. Sert de comparaison "prompt v2".
-  --fake   : faux modèle qui répond avec des erreurs volontaires (test du script).
+             Pas de champ "categorie" dans son extraction : catégorie non notée.
+  eval     : prompt v2 de ce fichier (categorie + dates AAAA-MM-JJ), via call_llm.
+  v3       : prompt v3 (délai qui expire en premier, montant recopié sans addition, "autre").
+             ATTENTION : v3 a été écrit APRÈS avoir lu les erreurs sur ces 20 courriers.
+             Ses scores sont optimistes ; à confirmer sur des courriers jamais vus.
+  --fake   : faux modèle avec erreurs volontaires (test du script).
 
 Notes par courrier :
   json_ok    : extraction exploitable
-  categorie  : catégorie extraite == attendue (mode eval seulement)
-  delai      : date exacte après normalisation (AAAA-MM-JJ, "9. November 2026",
-               "15.10.2026", "1er mai 2026" sont acceptés)
+  categorie  : catégorie extraite == attendue (modes eval et v3)
+  delai      : date exacte après normalisation ("9. November 2026", "15.10.2026",
+               "1er mai 2026" acceptés)
   montant    : nombre exact après normalisation ("CHF 1'250.-" -> 1250.0) ;
                null attendu -> null obtenu
   citation   : courrier avec source : une source attendue est dans le top-3 ;
-               courrier "autre" : Jisr ne cite rien (type "autre" OU score < SEUIL).
-               NB : le pipeline de B n'applique pas encore cette règle ; on mesure
-               ici la règle recommandée appliquée à sa recherche.
+               courrier "autre" : Jisr ne cite rien (type/categorie "autre" OU score < SEUIL).
+               NB : le pipeline de B n'applique pas encore cette règle.
 
-Non noté : type_document (étiquette libre), action_demandee (relecture à la main),
-qualité de la darija (locuteur natif).
+Non noté : type_document, action_demandee (relecture à la main), qualité de la darija.
+Le parseur JSON tolère l'échappement invalide \\' (observé sur le 8B).
 
 Usage (depuis track_2b/) :
     python -m eval.run_eval --fake
     python -m eval.run_eval --model 8b --limit 3
     python -m eval.run_eval --model 8b
     python -m eval.run_eval --model 8b --extractor eval
+    python -m eval.run_eval --model 8b --extractor v3
     python -m eval.run_eval --model 70b
 """
 import argparse
@@ -60,12 +62,41 @@ Courrier :
 \"\"\"
 """
 
+V3_PROMPT = """Tu lis un courrier officiel suisse (allemand ou français).
+Réponds UNIQUEMENT avec un objet JSON valide, sans texte autour, avec ces clés :
+- "categorie" : "assurance_maladie", "rappel_poursuite" ou "sejour" si le courrier relève
+  clairement de ce domaine ; sinon "autre" (par exemple impôts, banque, contrat de travail,
+  ou tout autre sujet).
+- "type_document" : court, en minuscules avec underscores.
+- "delai" : la date limite, au format AAAA-MM-JJ.
+  * Si le courrier donne plusieurs délais, choisis celui qui expire EN PREMIER
+    (par exemple, un délai d'opposition de 10 jours expire avant un délai de paiement de 20 jours).
+  * Si le délai est relatif (« dans les dix jours »), calcule la date à partir de la date de
+    notification écrite dans le courrier, sinon à partir de la date du courrier.
+  * null s'il n'y a aucun délai.
+- "montant" : le montant en CHF que la personne doit payer (ou qu'elle reçoit), recopié tel qu'il
+  est écrit dans le courrier, comme nombre (ex. 1250.00). Ne fais JAMAIS d'addition toi-même et
+  n'invente aucun chiffre. null s'il n'y a aucun montant.
+- "action_demandee" : ce que la personne doit faire, en une phrase.
+
+Date du courrier : {date_courrier}
+
+Courrier :
+\"\"\"
+{courrier}
+\"\"\"
+"""
+
+PROMPTS = {"eval": EVAL_PROMPT, "v3": V3_PROMPT}
+
 MONTHS = {
+    # français
     "janvier": 1, "février": 2, "fevrier": 2, "mars": 3, "avril": 4, "mai": 5, "juin": 6,
     "juillet": 7, "août": 8, "aout": 8, "septembre": 9, "octobre": 10, "novembre": 11,
     "décembre": 12, "decembre": 12,
-    "januar": 1, "februar": 2, "märz": 3, "maerz": 3, "juni": 6, "juli": 7, "august": 8,
-    "oktober": 10, "dezember": 12,
+    # allemand
+    "januar": 1, "jänner": 1, "februar": 2, "märz": 3, "maerz": 3, "juni": 6, "juli": 7,
+    "august": 8, "september": 9, "oktober": 10, "november": 11, "dezember": 12,
 }
 
 
@@ -113,8 +144,9 @@ def parse_json(text):
     a, b = text.find("{"), text.rfind("}")
     if a == -1 or b <= a:
         return None
+    candidate = text[a : b + 1].replace("\\'", "'")  # \' est invalide en JSON
     try:
-        obj = json.loads(text[a : b + 1])
+        obj = json.loads(candidate)
         return obj if isinstance(obj, dict) else None
     except json.JSONDecodeError:
         return None
@@ -151,7 +183,7 @@ def main(model: str, extractor: str, fake: bool, limit) -> None:
         from src.pipeline import extract as pipeline_extract, get_passages
     else:
         from src.retrieve import retrieve
-        if mode == "eval":
+        if mode in PROMPTS:
             from src.llm import call_llm
 
     rows, raws = [], []
@@ -166,8 +198,8 @@ def main(model: str, extractor: str, fake: bool, limit) -> None:
             if mode == "fake":
                 raw = fake_extract(t, i)
                 got = parse_json(raw)
-            elif mode == "eval":
-                prompt = EVAL_PROMPT.format(date_courrier=t["date_courrier"], courrier=t["courrier"])
+            elif mode in PROMPTS:
+                prompt = PROMPTS[mode].format(date_courrier=t["date_courrier"], courrier=t["courrier"])
                 raw = call_llm(prompt, model=model, temperature=0.0, max_tokens=300)
                 got = parse_json(raw)
             else:
@@ -225,7 +257,8 @@ def main(model: str, extractor: str, fake: bool, limit) -> None:
 
     titres = {"fake": "FAKE (test du script, ces chiffres ne sont PAS des résultats)",
               "pipeline": f"pipeline de B, Apertus {model}",
-              "eval": f"prompt d'évaluation (categorie + ISO), Apertus {model}"}
+              "eval": f"prompt v2 (categorie + ISO), Apertus {model}",
+              "v3": f"prompt v3 (écrit après lecture des erreurs : scores optimistes), Apertus {model}"}
     L = [f"# Benchmark extraction + citation : {titres[mode]}\n",
          f"Courriers : {len(rows)}. Seuil de source : {SEUIL_SOURCE}.\n",
          "## Global\n",
@@ -277,7 +310,7 @@ def main(model: str, extractor: str, fake: bool, limit) -> None:
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="8b", choices=["8b", "70b"])
-    ap.add_argument("--extractor", default="pipeline", choices=["pipeline", "eval"])
+    ap.add_argument("--extractor", default="pipeline", choices=["pipeline", "eval", "v3"])
     ap.add_argument("--fake", action="store_true", help="faux modèle, pour tester le script")
     ap.add_argument("--limit", type=int, default=None)
     a = ap.parse_args()

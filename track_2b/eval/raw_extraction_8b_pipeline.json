@@ -197,9 +197,9 @@
       "type_document": "Avis de mise en conformité",
       "delai": "15. Oktober 2026",
       "montant": null,
-      "action_demandee": "S'inscrire à une assurance maladie de base"
+      "action_demandee": "S'inscrire à une assurance maladie de base d'ici le 15 octobre 2026"
     },
-    "sortie_brute": "{\"type_document\": \"Avis de mise en conformité\", \"delai\": \"15. Oktober 2026\", \"montant\": null, \"action_demandee\": \"S'inscrire à une assurance maladie de base\"}",
+    "sortie_brute": "{\"type_document\": \"Avis de mise en conformité\", \"delai\": \"15. Oktober 2026\", \"montant\": null, \"action_demandee\": \"S'inscrire à une assurance maladie de base d'ici le 15 octobre 2026\"}",
     "attendu": {
       "type_document": "aufforderung_versicherungspflicht",
       "delai": "2026-10-15",

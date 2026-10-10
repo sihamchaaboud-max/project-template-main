@@ -31,9 +31,9 @@
       "type_document": "mahnung",
       "delai": "2026-11-09",
       "montant": 432.5,
-      "action_demandée": "Effectuer un virement de CHF 432.50 d'ici le 9 novembre 2026."
+      "action_demandee": "Effectuer un virement de CHF 432.50 d'ici le 9 novembre 2026."
     },
-    "sortie_brute": "```json\n{\n  \"categorie\": \"assurance_maladie\",\n  \"type_document\": \"mahnung\",\n  \"delai\": \"2026-11-09\",\n  \"montant\": 432.50,\n  \"action_demandée\": \"Effectuer un virement de CHF 432.50 d'ici le 9 novembre 2026.\"\n}\n```",
+    "sortie_brute": "```json\n{\n  \"categorie\": \"assurance_maladie\",\n  \"type_document\": \"mahnung\",\n  \"delai\": \"2026-11-09\",\n  \"montant\": 432.50,\n  \"action_demandee\": \"Effectuer un virement de CHF 432.50 d'ici le 9 novembre 2026.\"\n}\n```",
     "attendu": {
       "type_document": "mahnung_praemie",
       "delai": "2026-11-09",
@@ -301,7 +301,13 @@
   },
   {
     "id": "t13",
-    "extraction": null,
+    "extraction": {
+      "categorie": "sejour",
+      "type_document": "avis_d_anmeldung",
+      "delai": "2026-10-15",
+      "montant": null,
+      "action_demandee": "S'annoncer personnellement auprès des autorités de séjour avant le 15 octobre 2026, en présentant le passeport et le contrat de location."
+    },
     "sortie_brute": "```json\n{\n  \"categorie\": \"sejour\",\n  \"type_document\": \"avis_d_anmeldung\",\n  \"delai\": \"2026-10-15\",\n  \"montant\": null,\n  \"action_demandee\": \"S\\'annoncer personnellement auprès des autorités de séjour avant le 15 octobre 2026, en présentant le passeport et le contrat de location.\"\n}\n```",
     "attendu": {
       "type_document": "aufforderung_anmeldung",
@@ -425,9 +431,9 @@
       "type_document": "facture_mobile",
       "delai": "2026-10-28",
       "montant": 89.9,
-      "action_demandee": "Payer la facture de téléphonie mobile d'un montant de 89.90 CHF d'ici le 28 octobre 2026."
+      "action_demandee": "Payer la facture de téléphonie mobile d'un montant total de 89.90 CHF d'ici le 28 octobre 2026."
     },
-    "sortie_brute": "```json\n{\n  \"categorie\": \"assurance_maladie\",\n  \"type_document\": \"facture_mobile\",\n  \"delai\": \"2026-10-28\",\n  \"montant\": 89.90,\n  \"action_demandee\": \"Payer la facture de téléphonie mobile d'un montant de 89.90 CHF d'ici le 28 octobre 2026.\"\n}\n```",
+    "sortie_brute": "```json\n{\n  \"categorie\": \"assurance_maladie\",\n  \"type_document\": \"facture_mobile\",\n  \"delai\": \"2026-10-28\",\n  \"montant\": 89.90,\n  \"action_demandee\": \"Payer la facture de téléphonie mobile d'un montant total de 89.90 CHF d'ici le 28 octobre 2026.\"\n}\n```",
     "attendu": {
       "type_document": "autre",
       "delai": "2026-10-28",
@@ -475,9 +481,9 @@
       "type_document": "mahnung",
       "delai": "2026-10-22",
       "montant": 422.3,
-      "action_demandée": "Effectuer le paiement de CHF 422.30 d'ici le 22 octobre 2026."
+      "action_demandée": "Effectuer le virement du montant total de CHF 422.30 d'ici le 22 octobre 2026."
     },
-    "sortie_brute": "```json\n{\n  \"categorie\": \"rappel_poursuite\",\n  \"type_document\": \"mahnung\",\n  \"delai\": \"2026-10-22\",\n  \"montant\": 422.30,\n  \"action_demandée\": \"Effectuer le paiement de CHF 422.30 d'ici le 22 octobre 2026.\"\n}\n```",
+    "sortie_brute": "```json\n{\n  \"categorie\": \"rappel_poursuite\",\n  \"type_document\": \"mahnung\",\n  \"delai\": \"2026-10-22\",\n  \"montant\": 422.30,\n  \"action_demandée\": \"Effectuer le virement du montant total de CHF 422.30 d'ici le 22 octobre 2026.\"\n}\n```",
     "attendu": {
       "type_document": "mahnung",
       "delai": "2026-10-22",
