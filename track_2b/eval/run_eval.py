@@ -1,5 +1,5 @@
 """
-eval/run_eval.py : benchmark principal de Jisr (extraction + chiffres + citation)
+eval/run_eval.py : benchmark principal de aji-tfhem (extraction + chiffres + citation)
 
 Extracteurs (--extractor) :
   pipeline : le VRAI pipeline de B (src/pipeline.py : extract + get_passages). Défaut.
@@ -18,7 +18,7 @@ Notes par courrier :
   montant    : nombre exact après normalisation ("CHF 1'250.-" -> 1250.0) ;
                null attendu -> null obtenu
   citation   : courrier avec source : une source attendue est dans le top-3 ;
-               courrier "autre" : Jisr ne cite rien (type/categorie "autre" OU score < SEUIL).
+               courrier "autre" : aji-tfhem ne cite rien (type/categorie "autre" OU score < SEUIL).
                NB : le pipeline de B n'applique pas encore cette règle.
 
 Non noté : type_document, action_demandee (relecture à la main), qualité de la darija.

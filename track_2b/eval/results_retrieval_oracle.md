@@ -43,7 +43,7 @@ Courriers évalués : 16 (sur 20)
 | t14 | sejour | lei_art62 | schkg_art74, schkg_art67, lei_art62 | OK |
 | t15 | sejour | lei_art34 | lei_art12, lei_art34, schkg_art69 | OK |
 | t16 | autre | (aucune) | schkg_art69, kvg_art64a, schkg_art74 | - |
-| t17 | autre | (aucune) | kvg_art64a, schkg_art69, schkg_art74 | - |
+| t17 | autre | (aucune) | schkg_art69, kvg_art64a, schkg_art74 | - |
 | t18 | autre | (aucune) | schkg_art69, kvg_art64a, schkg_art74 | - |
 | t19 | autre | (aucune) | schkg_art69, schkg_art74, kvg_art64a | - |
 | t20 | rappel_poursuite | schkg_art67 | schkg_art69, kvg_art64a, kvg_art64 | RATE |
@@ -51,7 +51,7 @@ Courriers évalués : 16 (sur 20)
 ## Courriers sans source attendue (seuil possible)
 
 - t16 (autre) : meilleur passage = schkg_art69, score 0.5689
-- t17 (autre) : meilleur passage = kvg_art64a, score 0.5455
+- t17 (autre) : meilleur passage = schkg_art69, score 0.5439
 - t18 (autre) : meilleur passage = schkg_art69, score 0.5689
 - t19 (autre) : meilleur passage = schkg_art69, score 0.5171
 

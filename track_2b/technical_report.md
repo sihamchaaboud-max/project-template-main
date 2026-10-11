@@ -1,4 +1,4 @@
-# Technical report — Jisr 
+# Technical report — aji-tfhem 
 
 A deeper write-up than the README: what we built, how it works, and what the numbers say.
 Passages marked **TO FILL** wait for a result or a decision that does not exist yet.
@@ -12,7 +12,7 @@ Passages marked **TO FILL** wait for a result or a decision that does not exist 
 
 Many people of Moroccan origin living in Switzerland find official administrative mail hard to
 understand, and missing a deadline has real consequences (for example the 10 days to object to a
-payment order). **Jisr** reads an official Swiss letter (German or French) and explains it in
+payment order). **aji-tfhem** reads an official Swiss letter (German or French) and explains it in
 **Darija** (Moroccan Arabic): what it is about, what to do, by when, and which official source the
 explanation relies on.
 
@@ -65,7 +65,7 @@ prepended to the indexed text. Embeddings are normalised and compared by cosine 
 Retrieval rule: `retrieve()` returns `k` **different** articles. If the same article shows up in
 both French and German, only the best-ranked version is kept.
 
-No-source rule: Jisr cites no official source if the extracted `type_document` is `autre`
+No-source rule: aji-tfhem cites no official source if the extracted `type_document` is `autre`
 (other), or if the best retrieval score is below 0.54.
 
 ### Target architecture (mandatory)
@@ -225,7 +225,7 @@ category blocks any citation). It must be read together with section 5.1.
 - **Displayed passage:** for a given source, the returned passage is not always the most useful
   one (for example paragraph 7 of art. 64a LAMal instead of paragraph 1). The cited source is
   correct, but the text handed to the generator may miss the essential part.
-- **Laws, not practice:** Jisr cites law articles, not office practice or cantonal rules. Exact
+- **Laws, not practice:** aji-tfhem cites law articles, not office practice or cantonal rules. Exact
   deadlines for some procedures are in ordinances absent from the base (for example the arrival
   declaration deadline, in the OASA).
 - **Not legal advice:** to be displayed clearly in the interface.
