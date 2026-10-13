@@ -1,0 +1,74 @@
+id: kvg_art65
+titre: Loi fédérale sur l'assurance-maladie, art. 65
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/fr
+langue: fr
+theme: prime
+date_acces: 2026-10-08
+---
+Art. 65266 Réduction des primes par les cantons
+1 Les cantons accordent une réduction de primes aux assurés de condition économique modeste. Ils versent directement le montant correspondant aux assureurs concernés. Le Conseil fédéral peut faire bénéficier de cette réduction les personnes tenues de s’assurer qui n’ont pas de domicile en Suisse mais qui y séjournent de façon prolongée.267
+
+1bis Pour les bas et moyens revenus, les cantons réduisent de 80 % au moins les primes des enfants et de 50 % au moins celles des jeunes adultes en formation.268
+
+1ter Chaque canton définit le pourcentage maximal que les primes doivent représenter par rapport au revenu disponible des assurés résidant dans le canton.269
+
+1quater Chaque canton règlemente la réduction des primes de manière à ce que le montant total annuel qu’il accorde à ce titre corresponde au moins à un pourcentage déterminé des coûts bruts de l’assurance obligatoire des soins des assurés qui résident dans le canton.270
+
+1quinquies Le pourcentage minimal est calculé comme suit en fonction de la part que les primes représentent, en moyenne, dans le revenu que perçoit la proportion de 40 % des assurés aux revenus les plus faibles qui résident dans le canton:
+
+a.
+si les primes représentent moins de 11 % du revenu, il s’élève à 3,5 % des coûts bruts;
+b.
+si les primes représentent 18,5 % ou plus du revenu, il s’élève à 7,5 % des coûts bruts;
+c.
+entre les limites visées aux let. a et b, il augmente de manière linéaire.271
+1sexies Le calcul du pourcentage minimal se fonde:
+
+a.
+sur le revenu imposable au sens de la loi fédérale du 14 décembre 1990 sur l’impôt fédéral direct272;
+b.
+sur les primes effectivement payées par les assurés pour toutes les formes d’assurance (prime moyenne).273
+1septies Tous les montants que le canton consacre au paiement des primes des assurés sont pris en compte pour déterminer s’il respecte le pourcentage minimal, à l’exception des créances prises en charge en vertu de l’art. 64a, al. 4, et de sa part aux subsides fédéraux au sens de l’art. 66.274
+
+1octies Le Conseil fédéral règle, après avoir entendu les cantons, les modalités du calcul des coûts bruts et du pourcentage minimal.275
+
+2 L’échange des données entre les cantons et les assureurs se déroule selon une procédure uniforme. Le Conseil fédéral règle les modalités après avoir entendu les cantons et les assureurs.276
+
+3 Les cantons veillent, lors de l’examen des conditions d’octroi, à ce que les circonstances économiques et familiales les plus récentes soient prises en considération, notamment à la demande de l’assuré. Après avoir déterminé le cercle des ayants droit, les cantons veillent également à ce que les montants versés au titre de la réduction des primes le soient de manière à ce que les ayants droit n’aient pas à satisfaire à l’avance à leur obligation de payer les primes.
+
+4 Les cantons informent régulièrement les assurés de leur droit à la réduction des primes.
+
+4bis Le canton communique à l’assureur les données concernant les bénéficiaires du droit à la réduction des primes et le montant de la réduction suffisamment tôt pour que celui-ci puisse en tenir compte lors de la facturation des primes. L’assureur informe le bénéficiaire du montant effectif de la réduction des primes au plus tard lors de la facturation suivante.277
+
+5 Les assureurs sont tenus à une collaboration qui s’étend au-delà de l’assistance administrative prévue à l’art. 82.278
+
+6 Les cantons transmettent à la Confédération des données anonymes relatives aux assurés bénéficiaires, afin que celle-ci puisse examiner si les buts de politique sociale et familiale ont été atteints. Le Conseil fédéral édicte les dispositions d’exécution.279
+
+266 Nouvelle teneur selon le ch. I de la LF du 24 mars 2000, en vigueur depuis le 1er janv. 2001 (RO 2000 2305; FF 1999 727). Voir aussi l’al. 2 des disp. fin. de cette mod., à la fin du texte.
+
+267 Nouvelle teneur selon le ch. I de la LF du 19 mars 2010, en vigueur depuis le 1er janv. 2012 (RO 2011 3523, FF 2009 5973 5987). Voir aussi les disp. trans. de la mod. du 19 mars 2010, à la fin du texte.
+
+268 Introduit par le ch. I de la LF du 18 mars 2005 (Réduction des primes) (RO 2005 3587; FF 2004 4089). Nouvelle teneur selon le ch. I de la LF du 17 mars 2017, en vigueur depuis le 1er janv. 2019 (RO 2018 1843; FF 2016 6989 7729).Voir aussi la disp. trans. de cette mod. à la fin du texte.
+
+269 Introduit par le ch. I de la LF du 29 sept. 2023 (Réduction des primes), en vigueur depuis le 1er janv. 2026 (RO 2025 568; FF 2021 2383). Voir aussi la disp. trans. de cette mod. à la fin du texte.
+
+270 Introduit par le ch. I de la LF du 29 sept. 2023 (Réduction des primes), en vigueur depuis le 1er janv. 2026 (RO 2025 568; FF 2021 2383). Voir aussi la disp. trans. de cette mod. à la fin du texte.
+
+271 Introduit par le ch. I de la LF du 29 sept. 2023 (Réduction des primes), en vigueur depuis le 1er janv. 2026 (RO 2025 568; FF 2021 2383).
+
+272 RS 642.11
+
+273 Introduit par le ch. I de la LF du 29 sept. 2023 (Réduction des primes), en vigueur depuis le 1er janv. 2026 (RO 2025 568; FF 2021 2383).
+
+274 Introduit par le ch. I de la LF du 29 sept. 2023 (Réduction des primes), en vigueur depuis le 1er janv. 2026 (RO 2025 568; FF 2021 2383).
+
+275 Introduit par le ch. I de la LF du 29 sept. 2023 (Réduction des primes), en vigueur depuis le 1er janv. 2026 (RO 2025 568; FF 2021 2383).
+
+276 Nouvelle teneur selon le ch. I de la LF du 19 mars 2010, en vigueur depuis le 1er janv. 2012 (RO 2011 3523, FF 2009 5973 5987).
+
+277 Introduit par le ch. I de la LF du 19 mars 2010, en vigueur depuis le 1er janv. 2012 (RO 2011 3523, FF 2009 5973 5987).
+
+278 Nouvelle teneur selon le ch. I de la LF du 19 mars 2010, en vigueur depuis le 1er janv. 2012 (RO 2011 3523, FF 2009 5973 5987).
+
+279 Nouvelle teneur selon le ch. I de la LF du 18 mars 2005 (Réduction des primes), en vigueur depuis le 1er janv. 2006 (RO 2005 3587; FF 2004 4089).

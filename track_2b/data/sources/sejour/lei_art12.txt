@@ -1,0 +1,16 @@
+id: lei_art12
+titre: Loi fédérale sur les étrangers et l'intégration, art. 12
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/2007/758/fr
+langue: fr
+theme: delai
+date_acces: 2026-10-08
+---
+Art. 12 Obligation de déclarer son arrivée
+1 Tout étranger tenu d’obtenir une autorisation de courte durée, de séjour ou d’établissement doit déclarer son arrivée à l’autorité compétente de son lieu de résidence en Suisse avant la fin du séjour non soumis à autorisation ou avant le début de l’activité lucrative.48
+
+2 Il est tenu de déclarer son arrivée à l’autorité compétente du nouveau lieu de résidence s’il s’installe dans un nouveau canton ou une nouvelle commune.
+
+3 Le Conseil fédéral fixe les délais dans lesquels l’arrivée doit être déclarée.
+
+48 Nouvelle teneur selon le ch. I de la LF du 14 déc. 2018 (Normes procédurales et systèmes d’information), en vigueur depuis le 1er juin 2019 (RO 2019 1413; FF 2018 1673).

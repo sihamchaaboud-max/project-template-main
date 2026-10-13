@@ -30,3 +30,7 @@ build/
 .venv/
 __pycache__/
 chroma_db/
+
+data/chroma/
+
+eval/*_fake*

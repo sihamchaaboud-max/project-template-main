@@ -1,0 +1,74 @@
+id: kvg_art65_de
+titre: Bundesgesetz über die Krankenversicherung, Art. 65
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de
+langue: de
+theme: prime
+date_acces: 2026-10-08
+---
+Art. 65264 Prämienverbilligung durch die Kantone
+1 Die Kantone gewähren den Versicherten in bescheidenen wirtschaftlichen Verhältnissen Prämienverbilligungen. Sie bezahlen den Beitrag für die Prämienverbilligung direkt an die Versicherer, bei denen diese Personen versichert sind. Der Bundesrat kann die Anspruchsberechtigung auf versicherungspflichtige Personen ohne Wohnsitz in der Schweiz ausdehnen, die sich längere Zeit in der Schweiz aufhalten.265
+
+1bis Für untere und mittlere Einkommen verbilligen die Kantone die Prämien der Kinder um mindestens 80 Prozent und die Prämien der jungen Erwachsenen in Ausbildung um mindestens 50 Prozent.266
+
+1ter Jeder Kanton legt fest, welchen Anteil die Prämie am verfügbaren Einkommen der Versicherten mit Wohnort im Kanton höchstens ausmachen darf.267
+
+1quater Jeder Kanton regelt die Prämienverbilligung so, dass diese pro Kalenderjahr gesamthaft einem bestimmten Mindestanteil der Bruttokosten der obligatorischen Krankenpflegeversicherung der Versicherten, die ihren Wohnort im Kanton haben, entspricht.268
+
+1quinquies Der Mindestanteil wird nach demjenigen Anteil berechnet, den die Prämien am Einkommen der 40 Prozent einkommensschwächsten Versicherten mit Wohnort im Kanton durchschnittlich ausmachen; dabei gilt Folgendes:
+
+a.
+Machen die Prämien weniger als 11 Prozent des Einkommens aus, so beträgt der Mindestanteil 3,5 Prozent der Bruttokosten.
+b.
+Machen die Prämien 18,5 Prozent des Einkommens oder mehr aus, so beträgt der Mindestanteil 7,5 Prozent der Bruttokosten.
+c.
+Zwischen den Eckwerten nach den Buchstaben a und b erhöht sich der Mindestanteil linear.269
+1sexies Die Berechnung des Mindestanteils stützt sich auf:
+
+a.
+das steuerbare Einkommen nach dem Bundesgesetz vom 14. Dezember 1990270 über die direkte Bundessteuer;
+b.
+die von den Versicherten tatsächlich bezahlten Prämien sämtlicher Versicherungsformen (mittlere Prämie).271
+1septies Für die Beurteilung, ob ein Kanton den Mindestanteil erfüllt, werden alle Beträge berücksichtigt, die er für die Bezahlung der Prämien der Versicherten aufwendet, mit Ausnahme von Forderungen, die er gestützt auf Artikel 64a Absatz 4 übernommen hat, und mit Ausnahme seines Anteils am Bundesbeitrag nach Artikel 66.272
+
+1octies Der Bundesrat legt nach Anhörung der Kantone die Einzelheiten der Berechnung der Bruttokosten und des Mindestanteils fest.273
+
+2 Der Datenaustausch zwischen den Kantonen und den Versicherern erfolgt nach einem einheitlichen Standard. Der Bundesrat regelt die Einzelheiten nach Anhörung der Kantone und der Versicherer.274
+
+3 Die Kantone sorgen dafür, dass bei der Überprüfung der Anspruchsvoraussetzungen, insbesondere auf Antrag der versicherten Person, die aktuellsten Einkommens- und Familienverhältnisse berücksichtigt werden. Nach der Feststellung der Bezugsberechtigung sorgen die Kantone zudem dafür, dass die Auszahlung der Prämienverbilligung so erfolgt, dass die anspruchsberechtigten Personen ihrer Prämienzahlungspflicht nicht vorschussweise nachkommen müssen.
+
+4 Die Kantone informieren die Versicherten regelmässig über das Recht auf Prämienverbilligung.
+
+4bis Der Kanton meldet dem Versicherer die Versicherten, die Anspruch auf eine Prämienverbilligung haben, und die Höhe der Verbilligung so früh, dass der Versicherer die Prämienverbilligung bei der Prämienfakturierung berücksichtigen kann. Der Versicherer informiert die anspruchsberechtigte Person spätestens bei der nächsten Fakturierung über die tatsächliche Prämienverbilligung.275
+
+5 Die Versicherer sind verpflichtet, bei der Prämienverbilligung über die Bestimmungen betreffend die Amts- und Verwaltungshilfe nach Artikel 82 hinaus mitzuwirken.276
+
+6 Die Kantone machen dem Bund zur Überprüfung der sozial- und familienpolitischen Ziele anonymisierte Angaben über die begünstigten Versicherten. Der Bundesrat erlässt die notwendigen Vorschriften dazu.277
+
+264 Fassung gemäss Ziff. I des BG vom 24. März 2000, in Kraft seit 1. Jan. 2001 (AS 2000 2305; BBl 1999 793). Siehe auch die SchlB dieser Änd. am Ende dieses Textes.
+
+265 Fassung gemäss Ziff. I des BG vom 19. März 2010, in Kraft seit 1. Jan. 2012 (AS 2011 3523; BBl 2009 6617, 6631). Siehe auch die UeB dieser Änd. am Schluss des Textes.
+
+266 Eingefügt durch Ziff. I des BG vom 18. März 2005 (Prämienverbilligung (AS 2005 3587; BBl 2004 4327). Fassung gemäss Ziff. I des BG vom 17. März 2017, in Kraft seit 1. Jan. 2019 (AS 2018 1843; BBl 2016 7213, 7943). Siehe auch die UeB dieser Änd. am Schluss dieses Textes.
+
+267 Eingefügt durch Ziff. I des BG vom 29. Sept. 2023 (Prämienverbilligung), in Kraft seit 1. Jan. 2026 (AS 2025 568; BBl 2021 2383). Siehe auch die UeB dieser Änd. am Schluss dieses Textes.
+
+268 Eingefügt durch Ziff. I des BG vom 29. Sept. 2023 (Prämienverbilligung), in Kraft seit 1. Jan. 2026 (AS 2025 568; BBl 2021 2383). Siehe auch die UeB dieser Änd. am Schluss dieses Textes.
+
+269 Eingefügt durch Ziff. I des BG vom 29. Sept. 2023 (Prämienverbilligung), in Kraft seit 1. Jan. 2026 (AS 2025 568; BBl 2021 2383).
+
+270 SR 642.11
+
+271 Eingefügt durch Ziff. I des BG vom 29. Sept. 2023 (Prämienverbilligung), in Kraft seit 1. Jan. 2026 (AS 2025 568; BBl 2021 2383).
+
+272 Eingefügt durch Ziff. I des BG vom 29. Sept. 2023 (Prämienverbilligung), in Kraft seit 1. Jan. 2026 (AS 2025 568; BBl 2021 2383).
+
+273 Eingefügt durch Ziff. I des BG vom 29. Sept. 2023 (Prämienverbilligung), in Kraft seit 1. Jan. 2026 (AS 2025 568; BBl 2021 2383).
+
+274 Fassung gemäss Ziff. I des BG vom 19. März 2010, in Kraft seit 1. Jan. 2012 (AS 2011 3523; BBl 2009 6617, 6631).
+
+275 Eingefügt durch Ziff. I des BG vom 19. März 2010, in Kraft seit 1. Jan. 2012 (AS 2011 3523; BBl 2009 6617, 6631).
+
+276 Fassung gemäss Ziff. I des BG vom 19. März 2010, in Kraft seit 1. Jan. 2012 (AS 2011 3523; BBl 2009 6617, 6631).
+
+277 Fassung gemäss Ziff. I des BG vom 18. März 2005 (Prämienverbilligung), in Kraft seit 1. Jan. 2006 (AS 2005 3587; BBl 2004 4327).

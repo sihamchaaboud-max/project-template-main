@@ -1,0 +1,36 @@
+id: lei_art62_de
+titre: Bundesgesetz über die Ausländerinnen und Ausländer und über die Integration, Art. 62
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/2007/758/de
+langue: de
+theme: revocation
+date_acces: 2026-10-08
+---
+Art. 62138 Widerruf von Bewilligungen und anderen Verfügungen
+1 Die zuständige Behörde kann Bewilligungen, ausgenommen die Niederlassungsbewilligung, und andere Verfügungen nach diesem Gesetz widerrufen, wenn die Ausländerin oder der Ausländer:
+
+a.
+oder ihr oder sein Vertreter im Bewilligungsverfahren falsche Angaben macht oder wesentliche Tatsachen verschwiegen hat;
+b.
+zu einer längerfristigen Freiheitsstrafe verurteilt wurde oder gegen sie eine strafrechtliche Massnahme im Sinne der Artikel 59–61 oder 64 StGB139 angeordnet wurde;
+c.
+erheblich oder wiederholt gegen die öffentliche Sicherheit und Ordnung in der Schweiz oder im Ausland verstossen hat oder diese gefährdet oder die innere oder die äussere Sicherheit gefährdet;
+d.
+eine mit der Verfügung verbundene Bedingung nicht einhält;
+e.
+oder eine Person, für die sie oder er zu sorgen hat, auf Sozialhilfe angewiesen ist;
+f.140
+in rechtsmissbräuchlicher Weise versucht hat, das Schweizer Bürgerrecht zu erschleichen, oder ihr oder ihm dieses aufgrund einer rechtskräftigen Verfügung im Rahmen einer Nichtigerklärung gemäss Artikel 36 des Bürgerrechtsgesetzes vom 20. Juni 2014141 entzogen worden ist;
+g.142
+eine Integrationsvereinbarung ohne entschuldbaren Grund nicht einhält.
+2 Unzulässig ist ein Widerruf, der nur damit begründet wird, dass ein Delikt begangen wurde, für das ein Strafgericht bereits eine Strafe oder Massnahme verhängt, jedoch von einer Landesverweisung abgesehen hat.
+
+138 Fassung gemäss Ziff. IV 3 des BG vom 19. Juni 2015 (Änderung des Sanktionenrechts), in Kraft seit 1. Jan. 2018 (AS 2016 1249; BBl 2012 4721).
+
+139 SR 311.0
+
+140 Eingefügt durch Anhang Ziff. II 1 des Bürgerrechtsgesetzes vom 20. Juni 2014, in Kraft seit 1. Jan. 2018 (AS 2016 2561; BBl 2011 2825).
+
+141 SR 141.0
+
+142 Eingefügt durch Ziff. I des BG vom 16. Dez. 2016 (Integration), in Kraft seit 1. Jan. 2019 (AS 2017 6521, 2018 3171; BBl 2013 2397, 2016 2821). Berichtigung der Redaktionskommission der BVers vom 10. Aug. 2018, veröffentlicht am 18. Sept. 2018 (AS 2018 3213).

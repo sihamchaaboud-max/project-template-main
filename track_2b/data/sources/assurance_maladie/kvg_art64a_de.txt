@@ -1,0 +1,60 @@
+id: kvg_art64a_de
+titre: Bundesgesetz über die Krankenversicherung, Art. 64a
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de
+langue: de
+theme: rappel
+date_acces: 2026-10-08
+---
+Art. 64a251
+1 Bezahlt die versicherte Person fällige Prämien oder Kostenbeteiligungen nicht, so hat der Versicherer ihr, nach mindestens einer schriftlichen Mahnung, eine Zahlungsaufforderung zuzustellen, ihr eine Nachfrist von 30 Tagen einzuräumen und sie auf die Folgen des Zahlungsverzuges (Abs. 2) hinzuweisen.
+
+1bis Ist die versicherte Person minderjährig, so sind die Bestimmungen über die Nichtbezahlung von Prämien und Kostenbeteiligungen auf ihre Eltern oder den Elternteil, der die Prämien schuldet, anzuwenden.252
+
+2 Bezahlt die versicherte Person trotz Zahlungsaufforderung die Prämien, Kostenbeteiligungen und Verzugszinse nicht innert der gesetzten Frist, so muss der Versicherer die Betreibung anheben. Eine Person darf in einem Kalenderjahr höchstens je zwei Mal für eigene Ausstände und für Ausstände eines Kindes betrieben werden.253 Dabei werden Betreibungen für Forderungen, die bereits zu einem Verlustschein oder einem gleichwertigen Rechtstitel geführt haben, nicht hinzugerechnet. Der Kanton kann verlangen, dass der Versicherer ihm die von einer Betreibung betroffenen Personen bekannt gibt.254
+
+3 Der Versicherer gibt der zuständigen kantonalen Behörde die betroffenen Versicherten sowie, pro Schuldner und Schuldnerin, den Gesamtbetrag der Forderungen aus der obligatorischen Krankenpflegeversicherung (ausstehende Prämien und Kostenbeteiligungen sowie Verzugszinse und Betreibungskosten) bekannt, die während des berücksichtigten Zeitraumes zur Ausstellung eines Verlustscheines oder eines gleichwertigen Rechtstitels geführt haben. Er ersucht die vom Kanton bezeichnete Revisionsstelle, die Richtigkeit der Daten, die er dem Kanton bekannt gegeben hat, zu bestätigen und übermittelt die Bestätigung dem Kanton.
+
+3bis Kann der Versicherer bei den Eltern oder dem Elternteil, der die Prämien schuldet, für ein Kind zu den in Absatz 3 erwähnten Forderungen keinen Verlustschein oder keinen gleichwertigen Rechtstitel erwirken, kann er diese Forderungen dem Kanton dennoch bekannt geben.255
+
+4 Der Kanton übernimmt 85 Prozent der Forderungen, die Gegenstand der Bekanntgabe nach den Absätzen 3 und 3bis waren. Der Versicherer bewahrt die Verlustscheine und die gleichwertigen Rechtstitel bis zur vollständigen Bezahlung der ausstehenden Forderungen auf. Sobald die Schuld vollständig oder teilweise gegenüber dem Versicherer beglichen ist, erstattet dieser 50 Prozent des erhaltenen Betrages an den Kanton zurück.256
+
+5 Übernimmt der Kanton zusätzlich fünf Prozent der Forderungen, die der Versicherer ihm bekannt gegeben hat, so tritt der Versicherer ihm diese Forderungen ab. Der Kanton informiert die versicherte Person über die Abtretung. In diesen Fällen kann die versicherte Person den Versicherer in Abweichung von Absatz 6 wieder wechseln.257
+
+6 In Abweichung von Artikel 7 kann die säumige versicherte Person den Versicherer nicht wechseln, solange die ausstehenden Prämien, Kostenbeteiligungen, Verzugszinse und Betreibungskosten nicht vollständig bezahlt sind. Kinder können den Versicherer nicht wechseln, wenn solche Ausstände für sie bestehen. Versicherte, die nur Ausstände für ihre Kinder haben, dürfen den Versicherer trotzdem wechseln. Artikel 7 Absätze 3 und 4 bleibt vorbehalten.258
+
+7 Die Kantone können versicherte Personen, die ihrer Prämienpflicht trotz Betreibung nicht nachkommen, auf einer Liste erfassen, welche nur den Leistungserbringern, der Gemeinde und dem Kanton zugänglich ist. Die Versicherer schieben für diese Versicherten auf Meldung des Kantons die Übernahme der Kosten für Leistungen mit Ausnahme der Notfallbehandlungen auf und erstatten der zuständigen kantonalen Behörde Meldung über den Leistungsaufschub und dessen Aufhebung nach Begleichung der ausstehenden Forderungen. Eine Notfallbehandlung liegt vor, wenn die Behandlung nicht aufgeschoben werden kann. Dies ist der Fall, wenn die versicherte Person ohne sofortige Behandlung gesundheitliche Schäden oder den Tod befürchten muss oder die Gesundheit anderer Personen gefährden kann.259
+
+7bis Versicherte, die volljährig geworden sind, können den Versicherer in Abweichung von Absatz 6 auf das Ende des Kalenderjahres auch wechseln, wenn Prämien, Kostenbeteiligungen, Verzugszinse oder Betreibungskosten aus der Zeit ihrer Minderjährigkeit ausstehen. Bei versicherungspflichtigen Familienangehörigen mit Wohnort in einem Mitgliedstaat der Europäischen Union, in Island, Norwegen oder im Vereinigten Königreich geht Artikel 4a vor.260
+
+7ter Die Kantone und die Versicherer tauschen ihre Daten nach einem einheitlichen Standard aus. Der Bundesrat regelt die Einzelheiten, nachdem er die Kantone und die Versicherer angehört hat.261
+
+8 Der Bundesrat legt die Aufgaben der Revisionsstelle fest und bezeichnet die einem Verlustschein gleichzusetzenden Rechtstitel. Er regelt zudem die Gebühren für Mahnungen und Zahlungsaufforderungen, die Einzelheiten des Mahn- und Betreibungsverfahrens sowie der Zahlungen der Kantone an die Versicherer.262
+
+9 Der Bundesrat erlässt Bestimmungen über die Nichtbezahlung von Prämien und Kostenbeteiligungen der versicherungspflichtigen Personen, die in einem Mitgliedstaat der Europäischen Union, in Island, in Norwegen oder im Vereinigten Königreich wohnen. Ist es nach dem Recht des betreffenden Staates möglich, dass der Versicherer die unbezahlten Prämien und Kostenbeteiligungen einbringt, so kann der Bundesrat die Kantone zur Übernahme von 85 Prozent der Forderungen, die Gegenstand der Bekanntgabe nach Absatz 3 waren, verpflichten. Ist es nach dem Recht des betreffenden Staates nicht möglich, so kann der Bundesrat den Versicherern das Recht gewähren, die Übernahme der Kosten für die Leistungen aufzuschieben.263
+
+251 Fassung gemäss Ziff. I des BG vom 19. März 2010, in Kraft seit 1. Jan. 2012 (AS 2011 3523; BBl 2009 6617, 6631).
+
+252 Eingefügt durch Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Jan. 2024 (AS 2023 678; BBl 2021 745, 1058). Siehe auch die UeB dieser Änd. am Schluss des Textes.
+
+253 Fassung des zweiten Satzes Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Jan. 2025 (AS 2023 678; BBl 2021 745, 1058).
+
+254 Dritter und vierter Satz eingefügt durch Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Jan. 2025 (AS 2023 678; BBl 2021 745, 1058).
+
+255 Eingefügt durch Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Juli 2025 (AS 2023 678; BBl 2021 745, 1058).
+
+256 Fassung gemäss Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Juli 2025 (AS 2023 678; BBl 2021 745, 1058). Siehe auch die UeB dieser Änd. am Schluss dieses Textes.
+
+257 Fassung gemäss Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Juli 2025 (AS 2023 678; BBl 2021 745, 1058).
+
+258 Fassung gemäss Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Jan. 2024 (AS 2023 678; BBl 2021 745, 1058).
+
+259 Dritter und vierter Satz eingefügt durch Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Jan. 2024 (AS 2023 678; BBl 2021 745, 1058).
+
+260 Eingefügt durch Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Jan. 2024 (AS 2023 678; BBl 2021 745, 1058). Fassung gemäss Anhang Ziff. 1 des BB vom 16. Dez. 2022 über die Genehmigung und die Umsetzung des Abkommens zur Koordinierung der sozialen Sicherheit zwischen der Schweiz und dem Vereinigten Königreich, in Kraft seit 1. März 2024 (AS 2024 74; BBl 2022 1180).
+
+261 Eingefügt durch Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Jan. 2024 (AS 2023 678; BBl 2021 745, 1058).
+
+262 Fassung des zweiten Satzes gemäss Ziff. I des BG vom 18. März 2022 (Vollstreckung der Prämienzahlungspflicht), in Kraft seit 1. Jan. 2024 (AS 2023 678; BBl 2021 745, 1058).
+
+263 Zweiter und dritter Satz eingefügt durch Ziff. I des BG vom 30. Sept. 2016 (Anpassung von Bestimmungen mit internationalem Bezug), in Kraft seit 1. Jan. 2018 (AS 2017 6717; BBl 2016 1).

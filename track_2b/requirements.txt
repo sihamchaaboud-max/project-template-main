@@ -4,3 +4,5 @@ sentence-transformers
 pydantic
 python-dotenv
 requests
+pytesseract
+pillow

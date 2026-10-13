@@ -1,0 +1,26 @@
+id: schkg_art67
+titre: Loi fédérale sur la poursuite pour dettes et la faillite, art. 67
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/11/529_488_529/fr
+langue: fr
+theme: poursuite
+date_acces: 2026-10-08
+---
+V. De la réquisition de poursuite
+A. Réquisition de poursuite
+Art. 67
+1 La réquisition de poursuite est adressée à l’office par écrit ou verbalement. Elle énonce:
+
+1.
+le nom et le domicile du créancier et, s’il y a lieu, de son mandataire; le domicile élu en Suisse, s’il demeure à l’étranger. À défaut d’indication spéciale, l’office est réputé domicile élu;
+2.136
+le nom et le domicile du débiteur, et, le cas échéant, de son représentant légal; dans les réquisitions de poursuites contre une succession, il y a lieu de désigner les héritiers auxquels la notification doit être faite;
+3.
+le montant en valeur légale suisse de la créance ou des sûretés exigées; si la créance porte intérêts, le taux et le jour duquel ils courent;
+4.
+le titre et sa date; à défaut de titre, la cause de l’obligation.
+2 La réquisition faite en vertu d’une créance garantie par gage doit contenir, en outre, les indications prévues à l’art. 151.
+
+3 Un reçu de la réquisition de poursuite est délivré gratuitement au créancier qui en fait la demande.
+
+136 Nouvelle teneur selon l’art. 58 tit. fin. CC, en vigueur depuis le 1er janv. 1912 (RO 24 245 tit. fin. art. 60; FF 1904 IV 1, 1907 VI 402).

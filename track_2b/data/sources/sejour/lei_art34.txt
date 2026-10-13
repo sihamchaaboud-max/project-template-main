@@ -1,0 +1,36 @@
+id: lei_art34
+titre: Loi fédérale sur les étrangers et l'intégration, art. 34
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/2007/758/fr
+langue: fr
+theme: permis
+date_acces: 2026-10-08
+---
+Art. 34 Autorisation d’établissement
+1 L’autorisation d’établissement est octroyée pour une durée indéterminée et sans conditions.
+
+2 L’autorité compétente peut octroyer une autorisation d’établissement à un étranger aux conditions suivantes:
+
+a.
+il a séjourné en Suisse au moins dix ans au titre d’une autorisation de courte durée ou de séjour, dont les cinq dernières années de manière ininterrompue au titre d’une autorisation de séjour;
+b.78
+il n’existe aucun motif de révocation au sens des art. 62 ou 63, al. 2;
+c.79
+l’étranger est intégré.
+3 L’autorisation d’établissement peut être octroyée au terme d’un séjour plus court si des raisons majeures le justifient.
+
+4 L’étranger qui remplit les conditions prévues à l’al. 2, let. b et c, et est apte à bien communiquer dans la langue nationale parlée au lieu de domicile peut obtenir une autorisation d’établissement au terme d’un séjour ininterrompu de cinq ans au titre d’une autorisation de séjour.80
+
+5 Les séjours temporaires ne sont pas pris en compte dans le séjour ininterrompu de cinq ans prévu aux al. 2, let. a, et 4. Les séjours effectués à des fins de formation ou de formation continue (art. 27) sont pris en compte lorsque, une fois ceux-ci achevés, l’étranger a été en possession d’une autorisation de séjour durable pendant deux ans sans interruption.81
+
+6 En cas de révocation en vertu de l’art. 63, al. 2, et de remplacement par une autorisation de séjour, une nouvelle autorisation d’établissement ne peut être délivrée qu’au terme d’un délai de cinq ans, pour autant que la personne se soit entre-temps bien intégrée.82
+
+78 Nouvelle teneur selon le ch. I de la LF du 16 déc. 2016 (Intégration), en vigueur depuis le 1er janv. 2019 (RO 2017 6521, 2018 3171; FF 2013 2131, 2016 2665).
+
+79 Introduite par le ch. I de la LF du 16 déc. 2016 (Intégration), en vigueur depuis le 1er janv. 2019 (RO 2017 6521, 2018 3171; FF 2013 2131, 2016 2665).
+
+80 Nouvelle teneur selon le ch. I de la LF du 16 déc. 2016 (Intégration), en vigueur depuis le 1er janv. 2019 (RO 2017 6521, 2018 3171; FF 2013 2131, 2016 2665).
+
+81 Nouvelle teneur de la 2e phrase selon l’annexe ch. 1 de la LF du 20 juin 2014 sur la formation continue, en vigueur depuis le 1er janv. 2017 (RO 2016 689; FF 2013 3265).
+
+82 Introduit par le ch. I de la LF du 16 déc. 2016 (Intégration), en vigueur depuis le 1er janv. 2019 (RO 2017 6521, 2018 3171; FF 2013 2131, 2016 2665).

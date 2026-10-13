@@ -1,0 +1,36 @@
+id: lei_art62
+titre: Loi fédérale sur les étrangers et l'intégration, art. 62
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/2007/758/fr
+langue: fr
+theme: revocation
+date_acces: 2026-10-08
+---
+Art. 62144 Révocation des autorisations et d’autres décisions
+1 L’autorité compétente peut révoquer une autorisation, à l’exception de l’autorisation d’établissement, ou une autre décision fondée sur la présente loi, dans les cas suivants:
+
+a.
+l’étranger ou son représentant légal a fait de fausses déclarations ou a dissimulé des faits essentiels durant la procédure d’autorisation;
+b.
+l’étranger a été condamné à une peine privative de liberté de longue durée ou a fait l’objet d’une mesure pénale prévue aux art. 59 à 61 ou 64 CP145;
+c.
+l’étranger attente de manière grave ou répétée à la sécurité et l’ordre publics en Suisse ou à l’étranger, les met en danger ou représente une menace pour la sécurité intérieure ou extérieure de la Suisse;
+d.
+l’étranger ne respecte pas les conditions dont la décision est assortie;
+e.
+l’étranger lui-même ou une personne dont il a la charge dépend de l’aide sociale;
+f.146
+l’étranger a tenté d’obtenir abusivement la nationalité suisse ou cette dernière lui a été retirée suite à une décision ayant force de chose jugée dans le cadre d’une annulation de la naturalisation au sens de l’art. 36 de la loi du 20 juin 2014 sur la nationalité suisse147;
+g.148
+sans motif valable, il ne respecte pas la convention d’intégration.
+2 Est illicite toute révocation fondée uniquement sur des infractions pour lesquelles un juge pénal a déjà prononcé une peine ou une mesure mais a renoncé à prononcer une expulsion.
+
+144 Nouvelle teneur selon le ch. IV 3 de la LF du 19 juin 2015 (Réforme du droit des sanctions), en vigueur depuis le 1er janv. 2018 (RO 2016 1249; FF 2012 4385).
+
+145 RS 311.0
+
+146 Introduite par l’annexe ch. II 1 de la L du 20 juin 2014 sur la nationalité suisse, en vigueur depuis le 1er janv. 2018 (RO 2016 2561; FF 2011 2639).
+
+147 RS 141.0
+
+148 Introduite par le ch. I de la LF du 16 déc. 2016 (Intégration), en vigueur depuis le 1er janv. 2019 (RO 2017 6521, 2018 3171; FF 2013 2131, 2016 2665). Erratum de la Commission de rédaction de l’Ass. féd. du 10 août 2018, publié le 18 sept. 2018 (RO 2018 3213).

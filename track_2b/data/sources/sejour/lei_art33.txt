@@ -1,0 +1,24 @@
+id: lei_art33
+titre: Loi fédérale sur les étrangers et l'intégration, art. 33
+source: Fedlex
+url: https://www.fedlex.admin.ch/eli/cc/2007/758/fr
+langue: fr
+theme: permis
+date_acces: 2026-10-08
+---
+Art. 33 Autorisation de séjour
+1 L’autorisation de séjour est octroyée pour un séjour de plus d’une année.
+
+2 Elle est octroyée pour un séjour dont le but est déterminé et peut être assortie d’autres conditions.
+
+3 Sa durée de validité est limitée, mais peut être prolongée s’il n’existe aucun motif de révocation au sens de l’art. 62, al. 175.
+
+4 Pour fixer la durée de validité de l’autorisation de séjour et de sa prolongation, les autorités tiennent compte de l’intégration de l’étranger.76
+
+5 L’octroi et la prolongation d’une autorisation de séjour peuvent être subordonnés à la conclusion d’une convention d’intégration lorsque se présentent des besoins d’intégration particuliers conformément aux critères définis à l’art. 58a.77
+
+75 Nouvelle expression selon le ch. IV 3 de la LF du 19 juin 2015 (Réforme du droit des sanctions), en vigueur depuis le 1er janv. 2018 (RO 2016 1249; FF 2012 4385). Il a été tenu compte de cette mod. aux disp. mentionnées dans ce RO.
+
+76 Introduit par le ch. I de la LF du 16 déc. 2016 (Intégration), en vigueur depuis le 1er janv. 2019 (RO 2017 6521, 2018 3171; FF 2013 2131, 2016 2665).
+
+77 Introduit par le ch. I de la LF du 16 déc. 2016 (Intégration), en vigueur depuis le 1er janv. 2019 (RO 2017 6521, 2018 3171; FF 2013 2131, 2016 2665).

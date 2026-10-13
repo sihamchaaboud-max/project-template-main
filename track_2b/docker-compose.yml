@@ -1,0 +1,19 @@
+services:
+  jisr:
+    build: .
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+      - ./eval:/app/eval
+      - ./app.py:/app/app.py
+      - chroma_db:/app/chroma_db
+      - hf_cache:/models
+    restart: unless-stopped
+
+volumes:
+  chroma_db:
+  hf_cache:
