@@ -1,10 +1,11 @@
-﻿"""Interface Gradio de Jisr."""
+"""Interface Gradio de aji-tfhem."""
 import html
 import re
 
 import gradio as gr
 
 from src.llm import LLMError
+from src.ocr import read_upload
 from src.pipeline import run_pipeline
 
 try:
@@ -46,14 +47,14 @@ CSS = """
 
 HEADER = """
 <div id="header">
-  <p class="header-title">جسر &nbsp;·&nbsp; Jisr</p>
-  <p class="header-sub">Colle un courrier officiel suisse (allemand ou français) :
-  Jisr l'explique en darija, dit quoi faire, avant quand, et cite sa source.</p>
+  <p class="header-title">أجي تفهم &nbsp;·&nbsp; aji-tfhem</p>
+  <p class="header-sub">Colle un courrier officiel suisse (allemand ou français) ou envoie une photo :
+  aji-tfhem l'explique en darija, dit quoi faire, avant quand, et cite sa source.</p>
 </div>
 """
 
 FOOTER = """
-<div id="footer">Jisr aide à comprendre un courrier. Il ne remplace pas un conseil juridique :
+<div id="footer">aji-tfhem aide à comprendre un courrier. Il ne remplace pas un conseil juridique :
 en cas de doute, contacte directement l'organisme qui a envoyé le courrier.</div>
 """
 
@@ -142,6 +143,18 @@ def sources_html(passages: list[dict]) -> str:
 
 
 # ---------------------------------------------------------------- logique
+def lire_photo(chemin):
+    """Lit la photo avec src/ocr.py. Retourne (texte pour la zone Courrier, statut OCR)."""
+    texte, message = read_upload(chemin)
+    if not texte:
+        # échec : on affiche l'erreur et on ne touche pas au texte déjà saisi
+        return gr.update(), badge("err", message)
+    # succès : le texte arrive dans la zone Courrier, sans message
+    if message.startswith("Photo difficile"):
+        return texte, badge("warn", message)
+    return texte, ""
+
+
 def analyser(courrier: str, modele: str):
     """Retourne (réponse, statut, cartes, sources, infos)."""
     if not courrier or not courrier.strip():
@@ -171,16 +184,28 @@ GR_MAJOR = int(gr.__version__.split(".")[0])
 BLOCKS_KW = {} if GR_MAJOR >= 6 else {"theme": THEME, "css": CSS}
 LAUNCH_KW = {"theme": THEME, "css": CSS} if GR_MAJOR >= 6 else {}
 
-with gr.Blocks(title="Jisr · جسر", **BLOCKS_KW) as demo:
+with gr.Blocks(title="aji-tfhem · أجي تفهم", **BLOCKS_KW) as demo:
     gr.HTML(HEADER)
 
     with gr.Row():
         with gr.Column(scale=5):
+            # --- Zone de texte : collé à la main, ou rempli par la photo (modifiable)
             courrier = gr.Textbox(
-                label="Courrier · الرسالة",
+                label="Courrier · الرسالة (tu peux corriger le texte lu)",
                 placeholder="Colle ici le texte du courrier (allemand ou français)…",
                 lines=14,
             )
+
+            # --- Option photo : juste sous la zone Courrier
+            with gr.Accordion("📷 Ou envoie une photo du courrier · صورة الرسالة", open=True):
+                photo = gr.File(
+                    label="Photo (JPG, JPEG, PNG)",
+                    file_types=[".jpg", ".jpeg", ".png"],
+                    type="filepath",
+                )
+                lire = gr.Button("Lire la photo")
+                ocr_statut = gr.HTML()
+
             gr.HTML('<div class="section-title">Essayer un exemple</div>')
             with gr.Row():
                 for nom, texte in EXEMPLES.items():
@@ -203,10 +228,11 @@ with gr.Blocks(title="Jisr · جسر", **BLOCKS_KW) as demo:
     gr.HTML(FOOTER)
 
     sorties = [reponse, statut, faits, sources, infos]
+    lire.click(lire_photo, inputs=photo, outputs=[courrier, ocr_statut])
     bouton.click(analyser, inputs=[courrier, modele], outputs=sorties)
     effacer.click(
-        lambda: ("", PLACEHOLDER, "", "", "", ""),
-        outputs=[courrier, *sorties],
+        lambda: ("", PLACEHOLDER, "", "", "", "", None, ""),
+        outputs=[courrier, *sorties, photo, ocr_statut],
     )
 
 demo.launch(server_name="0.0.0.0", server_port=7860, **LAUNCH_KW)
