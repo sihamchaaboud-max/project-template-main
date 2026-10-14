@@ -1,6 +1,8 @@
 services:
   jisr:
     build: .
+    init: true
+    stop_grace_period: 10s
     ports:
       - "7860:7860"
     env_file:
